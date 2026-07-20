@@ -1,0 +1,592 @@
+number	kind	category	title	labels	updated_at	url
+1222	pull-request	v1-included	Fix: date/time-trigger syntax leaking into filename on "New note from Card"		2026-07-16T03:33:00Z	https://github.com/obsidian-community/obsidian-kanban/pull/1222
+1221	pull-request	v1-included	fix: clear stale kanbanFileModes, enable _loaded flag, fallback window in addView		2026-07-10T14:34:06Z	https://github.com/obsidian-community/obsidian-kanban/pull/1221
+1220	issue	issue-feature-request	[Feature]: Optionally hide future tasks	enhancement	2026-06-30T17:47:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/1220
+1219	issue	issue-feature-request	[Feature]: support date format of "@due(2026-07-17)"	enhancement	2026-06-17T15:42:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/1219
+1217	issue	issue-mobile-i18n	Collapsed column header renders CJK upside-down (rotate(180deg) flips glyphs in vertical writing mode)		2026-06-06T04:16:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/1217
+1216	pull-request	v1-included	fix: cards use --radius-m instead of --input-radius (fixes iOS/iPadOS 26 blob corners)		2026-06-06T00:03:19Z	https://github.com/obsidian-community/obsidian-kanban/pull/1216
+1215	issue	issue-mobile-i18n	Cards render absurdly rounded on iOS/iPadOS 26 (card borrows --input-radius)		2026-06-06T00:02:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/1215
+1214	pull-request	pr-feature-review	feat(i18n): add Traditional Chinese (Taiwan) zh-TW locale		2026-06-05T23:46:51Z	https://github.com/obsidian-community/obsidian-kanban/pull/1214
+1212	issue	issue-feature-request	[Feature]: When checkbox is checked move card to a chosen list	enhancement	2026-05-27T18:10:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/1212
+1211	pull-request	v1-excluded-feature	Add optional insert-card button between cards		2026-05-21T15:36:36Z	https://github.com/obsidian-community/obsidian-kanban/pull/1211
+1210	pull-request	v1-excluded-feature	Add undo and redo for Kanban actions		2026-05-13T20:54:38Z	https://github.com/obsidian-community/obsidian-kanban/pull/1210
+1209	issue	issue-performance	[Bug]: Plugin "obsidian-kanban" is taking long to load.	bug	2026-05-16T16:19:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/1209
+1207	issue	issue-support-or-unclassified	There is a MUCH BETTER plugin that works on top of Bases. Maybe you should use it instead.		2026-05-26T10:38:48Z	https://github.com/obsidian-community/obsidian-kanban/issues/1207
+1206	pull-request	duplicate-not-selected	Improve border-radius on mobile and fix awkward scrollbar behavior		2026-05-01T13:52:34Z	https://github.com/obsidian-community/obsidian-kanban/pull/1206
+1205	issue	issue-feature-request	[Feature]: Add the ability to enter properties in the task	enhancement	2026-04-24T13:33:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/1205
+1204	issue	issue-mobile-i18n	[Bug]: CJK character orientation in collapsed lists	bug	2026-04-16T18:54:28Z	https://github.com/obsidian-community/obsidian-kanban/issues/1204
+1203	issue	issue-bug	[Bug]: Whitespace-only card and list titles are accepted with no validation	bug	2026-04-07T04:11:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/1203
+1201	issue	issue-performance	[Bug]: Dragging a note from the sidebar when a board is open lags the editor out significantly	bug	2026-03-25T21:51:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/1201
+1198	pull-request	pr-feature-review	feat: implement auto-create linked notes on card add		2026-05-24T17:13:13Z	https://github.com/obsidian-community/obsidian-kanban/pull/1198
+1195	pull-request	v1-excluded-feature	feat: move card to another kanban board from card menu		2026-03-11T13:41:12Z	https://github.com/obsidian-community/obsidian-kanban/pull/1195
+1194	pull-request	v1-excluded-feature	Add cross-board card transfer		2026-03-11T03:36:53Z	https://github.com/obsidian-community/obsidian-kanban/pull/1194
+1192	issue	issue-feature-request	[Feature]: Move Card from Kanban Board to other Kanban Board	enhancement	2026-03-05T07:13:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/1192
+1190	issue	issue-data-integrity	[Feature]: Delete All Cards In List / delete all completed cards	enhancement	2026-05-04T21:36:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/1190
+1189	pull-request	pr-feature-review	feat: horizontal backlog		2026-06-09T10:03:24Z	https://github.com/obsidian-community/obsidian-kanban/pull/1189
+1188	pull-request	v1-included	Fix: stop silently failing when failing to create new notes. fixes #1028		2026-02-25T16:49:38Z	https://github.com/obsidian-community/obsidian-kanban/pull/1188
+1187	pull-request	pr-feature-review	feat: Add story points, due dates, priority levels, and task categories to Kanban cards		2026-02-28T04:53:54Z	https://github.com/obsidian-community/obsidian-kanban/pull/1187
+1185	issue	issue-feature-request	[Feature]: Assign person to task	enhancement	2026-02-11T11:54:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/1185
+1183	issue	issue-mobile-i18n	[Bug]: Excessive border-radius on Kanban cards clips content on mobile (iOS/iPhone)	bug	2026-02-28T02:08:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/1183
+1182	issue	issue-feature-request	[Feature]: Plan for new maintainers?	enhancement	2026-05-04T21:52:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/1182
+1181	pull-request	pr-maintenance	docs: Improve landing page with navigation and getting started links (#1134)		2026-01-31T10:00:14Z	https://github.com/obsidian-community/obsidian-kanban/pull/1181
+1180	pull-request	v1-included	fix: Correct CJK/emoji orientation in collapsed columns (#1098)		2026-01-31T09:59:32Z	https://github.com/obsidian-community/obsidian-kanban/pull/1180
+1179	pull-request	v1-included	fix: Reduce drag scroll speed to prevent overshooting columns (#1110)		2026-01-31T09:56:10Z	https://github.com/obsidian-community/obsidian-kanban/pull/1179
+1178	issue	issue-mobile-i18n	[Bug]: New card input has too much top padding (on mobile)	bug	2026-02-17T07:47:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/1178
+1177	issue	issue-feature-request	[Feature]: Add option to automatically add today's date to card on creation	enhancement	2026-01-22T15:07:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/1177
+1176	issue	issue-data-integrity	[Feature]: undo & redo for deleting cards, reordering, moving to other list	enhancement	2026-01-17T10:57:33Z	https://github.com/obsidian-community/obsidian-kanban/issues/1176
+1175	issue	issue-feature-request	[Feature]: Embedded view functionality	enhancement	2026-01-10T03:26:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/1175
+1172	issue	issue-bug	[Bug]: Multiline code block not rendered correctly	bug	2025-10-30T09:51:01Z	https://github.com/obsidian-community/obsidian-kanban/issues/1172
+1170	issue	issue-feature-request	[Feature]: Menu option to copy the card text into clipboard	enhancement	2026-04-09T14:55:28Z	https://github.com/obsidian-community/obsidian-kanban/issues/1170
+1169	pull-request	v1-included	fix: Ensure empty priority would be interpreted with correct value		2025-10-11T17:31:55Z	https://github.com/obsidian-community/obsidian-kanban/pull/1169
+1168	issue	issue-performance	[Bug]: singboard.exe flagged as threat by corporate antivirus	bug	2025-09-29T07:48:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/1168
+1167	issue	issue-bug	[Bug]: move line up or down fails	bug	2025-09-27T17:59:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/1167
+1166	issue	issue-feature-request	[Feature]: Drag and drop too fast	enhancement	2025-12-16T09:56:05Z	https://github.com/obsidian-community/obsidian-kanban/issues/1166
+1165	pull-request	pr-feature-review	Implement dynamic task query lanes feature with manual override and smart movement		2025-09-22T18:07:50Z	https://github.com/obsidian-community/obsidian-kanban/pull/1165
+1163	issue	issue-data-integrity	[Bug]: Kanban board disappeared after git sync?	bug	2025-09-20T09:15:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/1163
+1162	issue	issue-bug	[Bug]: Cannot drag to reorder list	bug	2025-11-24T11:44:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/1162
+1161	issue	issue-feature-request	[Feature]: Options for the card drag&drop	enhancement	2025-09-06T19:44:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/1161
+1160	issue	issue-bug	[Bug]: Dropping link on board causes the link to be opened	bug	2025-09-06T11:27:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/1160
+1159	issue	issue-settings	[Bug]: "Tag sort order" setting does nothing	bug	2025-09-03T17:11:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/1159
+1158	issue	issue-feature-request	[Feature]: Use 2 spaces for indentation instead of four	enhancement	2025-09-02T04:02:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/1158
+1157	issue	issue-support-or-unclassified	Is this project still maintained?		2025-11-29T01:14:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/1157
+1156	pull-request	v1-included	Make mobile 'Submit' button work with a single tap		2025-08-26T21:29:46Z	https://github.com/obsidian-community/obsidian-kanban/pull/1156
+1155	issue	issue-bug	[Bug]: No text is printed on Obsidian 1.9.10	bug	2025-11-14T10:50:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/1155
+1154	issue	issue-feature-request	[Feature]: embedding the kanban board	enhancement	2025-08-31T10:14:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/1154
+1152	issue	issue-support-or-unclassified	[Question]: Displaying card frontmatter in card footer		2025-08-15T20:25:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/1152
+1151	pull-request	v2-data-safety-candidate	fix:Save card on lost focus if not empty		2026-05-20T04:59:44Z	https://github.com/obsidian-community/obsidian-kanban/pull/1151
+1150	pull-request	pr-feature-review	feat: Add some Korean translation to KanbanView		2025-08-04T12:52:19Z	https://github.com/obsidian-community/obsidian-kanban/pull/1150
+1149	issue	issue-data-integrity	Save card edits on blur (focus loss) without pressing Enter	enhancement	2025-08-03T07:51:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/1149
+1148	issue	issue-bug	[Bug]: Does not work with Typewriter Scroll plug-in: Large vertical text field opens when creating new list or card	bug	2025-07-25T10:03:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/1148
+1147	pull-request	v1-included	Fix keyboard shortcuts broken after adding new cards		2025-07-21T19:56:00Z	https://github.com/obsidian-community/obsidian-kanban/pull/1147
+1146	issue	issue-data-integrity	[Feature]: Delete card note when deleting card	enhancement	2025-07-21T08:01:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/1146
+1145	issue	issue-feature-request	[Feature]: Card note creation by double click	enhancement	2025-07-21T07:59:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/1145
+1144	issue	issue-support-or-unclassified	Addon for this plugin: Kanban Extended Colors		2025-07-19T10:04:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/1144
+1142	pull-request	pr-feature-review	Adds menu option to move card to next list (#1141)		2025-07-06T02:00:45Z	https://github.com/obsidian-community/obsidian-kanban/pull/1142
+1141	issue	issue-feature-request	[Feature]: Add option to move card to next list	enhancement	2025-07-06T01:37:59Z	https://github.com/obsidian-community/obsidian-kanban/issues/1141
+1140	pull-request	pr-feature-review	Add Copy to Calendar integration with Full Calendar plugin		2025-09-22T23:13:55Z	https://github.com/obsidian-community/obsidian-kanban/pull/1140
+1139	pull-request	duplicate-not-selected	Reduce Scaling Modifier for Drag & Drop Scroll Speed		2025-06-23T02:13:17Z	https://github.com/obsidian-community/obsidian-kanban/pull/1139
+1138	pull-request	pr-feature-review	Add Custom Task Icons for Kanban Columns		2025-10-31T18:28:24Z	https://github.com/obsidian-community/obsidian-kanban/pull/1138
+1137	issue	issue-bug	[Bug]: New note from card	bug	2025-06-20T14:56:27Z	https://github.com/obsidian-community/obsidian-kanban/issues/1137
+1136	issue	issue-bug	[Bug]:	bug	2025-06-02T00:13:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/1136
+1135	issue	issue-feature-request	[Feature]: Select multiple cards in order to perform bulk actions (like drag and drop multiple cards from one list into another)	enhancement	2025-05-31T01:38:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/1135
+1134	issue	issue-mobile-i18n	Documentation site shows no sign that it is the documentation site on mobile		2025-05-15T02:47:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/1134
+1133	pull-request	pr-feature-review	Add posibility to sort cards by fileMetadata (not only inlineMeta)		2025-05-07T09:17:14Z	https://github.com/obsidian-community/obsidian-kanban/pull/1133
+1132	issue	issue-bug	[Bug]: Plugin blocks using keyboard shortcuts after switching to Markdown view	bug	2025-11-11T06:18:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/1132
+1131	issue	issue-feature-request	[Feature]: Support hide column		2025-04-29T12:21:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/1131
+1130	issue	issue-feature-request	[Feature]: 添加「繁體中文」或在繁中系統語言下顯示「簡體中文」而非英文	enhancement	2025-04-26T10:34:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/1130
+1129	pull-request	pr-unclassified-review	Create hr.ts		2025-04-23T14:29:48Z	https://github.com/obsidian-community/obsidian-kanban/pull/1129
+1128	issue	issue-bug	[Bug]: 求助一直创建不了	bug	2025-04-19T12:00:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/1128
+1127	pull-request	pr-unclassified-review	Update ru.ts		2025-04-19T04:21:19Z	https://github.com/obsidian-community/obsidian-kanban/pull/1127
+1126	issue	issue-feature-request	[Feature]: Add Option to Tag Cards via Right-Click Menu	enhancement	2025-04-16T09:56:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/1126
+1125	issue	issue-feature-request	[Feature]: Support task queries	enhancement	2025-09-22T16:20:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/1125
+1123	issue	issue-data-integrity	[Bug]: The saving issue of the obsidian-kanban plugin	bug	2025-04-09T07:20:27Z	https://github.com/obsidian-community/obsidian-kanban/issues/1123
+1122	issue	issue-mobile-i18n	[Feature]: Different default view on mobile/desktop	enhancement	2025-04-01T17:20:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/1122
+1121	issue	issue-bug	[Bug]: Resizing Collumns in Table View inside a floating Window unresponsive	bug	2025-04-01T17:03:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/1121
+1120	pull-request	pr-unclassified-review	Update Frontmatter limitations & gotchas.md		2025-04-01T15:04:41Z	https://github.com/obsidian-community/obsidian-kanban/pull/1120
+1119	issue	issue-feature-request	[Feature]: Hope to increase the merging of multiple columns in collapsed state	enhancement	2025-03-31T09:37:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/1119
+1118	issue	issue-bug	[Bug]: Tags sort order not work	bug	2025-05-29T17:30:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/1118
+1117	issue	issue-feature-request	[Feature]: please make borders removeable.	enhancement	2025-10-30T19:16:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/1117
+1116	issue	issue-feature-request	[Feature]: List Width Per Board	enhancement	2025-03-18T12:31:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/1116
+1115	issue	issue-bug	[Bug]: Kanban extension not working.	bug	2025-03-19T15:05:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/1115
+1114	issue	issue-feature-request	[Feature]: Master Kanban Board with Enhanced Navigation and Search	enhancement	2025-03-15T09:12:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/1114
+1113	issue	issue-feature-request	[Feature]: Prepend (compact) + Append	enhancement	2025-03-11T00:28:09Z	https://github.com/obsidian-community/obsidian-kanban/issues/1113
+1112	issue	issue-performance	[Bug]: Using left- and right-arrow keys inside list title changes tab	bug	2025-03-10T07:59:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/1112
+1111	issue	issue-bug	[Bug]: Glitch when moving card between lists with board displayed in a narrow tab	bug	2025-03-07T19:14:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/1111
+1110	issue	issue-bug	[Bug]: Scroll speed too fast	bug	2025-06-23T01:34:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/1110
+1109	issue	issue-feature-request	[Feature]: Numbered list option	enhancement	2025-02-27T09:21:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/1109
+1107	issue	issue-performance	[Bug]: Failed to load plugin	bug	2025-02-25T20:28:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/1107
+1106	issue	issue-feature-request	[Feature]: please support nested children task function	enhancement	2025-02-21T02:11:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/1106
+1104	issue	issue-bug	[Bug]: Command palette is showing only the "Create new board" option	bug	2025-11-15T11:34:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/1104
+1103	issue	issue-performance	[Bug]: When a note on the Kanban board is too long the input starts to lag.	bug	2025-02-06T16:00:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/1103
+1102	issue	issue-bug	[Bug]: Opening an active board with the Quick Switcher or URI turns it blank.	bug	2025-04-11T12:36:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/1102
+1101	issue	issue-feature-request	[Feature]: Option of ignoring tags while creating new note from card	enhancement	2025-04-01T16:12:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/1101
+1100	issue	issue-data-integrity	[Bug]: Clicking when adding a new card cancels the add operation and loses changes	bug	2025-03-19T20:42:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/1100
+1099	issue	issue-feature-request	[Feature]: Support mixed use of board view and list view	enhancement	2025-03-07T10:15:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/1099
+1098	issue	issue-mobile-i18n	[Bug]: In boardview, when list is collapsed, Chinese Characters in the list title are upside down	bug	2026-04-25T05:42:40Z	https://github.com/obsidian-community/obsidian-kanban/issues/1098
+1097	pull-request	pr-unclassified-review	Update Obsidian Kanban Plugin.md		2025-01-23T21:55:22Z	https://github.com/obsidian-community/obsidian-kanban/pull/1097
+1096	issue	issue-bug	[Bug]: error message in console on renaming kanban board	bug	2025-01-23T14:58:01Z	https://github.com/obsidian-community/obsidian-kanban/issues/1096
+1095	issue	issue-feature-request	[Feature]: 'Link property' to all notes in a list	enhancement	2025-01-22T08:01:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/1095
+1094	issue	issue-bug	[Bug]: Tag colour doesn't reset	bug	2025-01-20T12:19:50Z	https://github.com/obsidian-community/obsidian-kanban/issues/1094
+1093	issue	issue-feature-request	[Feature]: Add a "merge duplicate" function	enhancement	2025-01-20T09:38:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/1093
+1092	issue	issue-feature-request	[Feature]: Archive by column dimension	enhancement	2025-02-06T07:14:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/1092
+1091	issue	issue-data-integrity	[Bug]: Edit changes lost when dragging different card	bug	2025-02-02T08:11:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/1091
+1090	issue	issue-data-integrity	[Bug]: Archived cards get lost	bug	2025-01-29T09:13:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/1090
+1089	issue	issue-feature-request	[Feature]: Display Card Title in Generated Links	enhancement	2025-01-11T09:41:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/1089
+1088	issue	issue-feature-request	[Feature]: Use icons, defined in custom task types	enhancement	2025-01-11T03:58:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/1088
+1087	pull-request	pr-feature-review	Add spanish localization		2025-01-06T23:50:34Z	https://github.com/obsidian-community/obsidian-kanban/pull/1087
+1086	issue	issue-feature-request	[Feature]: When Archiving add the option to have the Original List Name Added to the Title	enhancement	2025-01-02T22:43:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/1086
+1085	issue	issue-feature-request	[Feature]: Different display profiles for lists on phones and PCs.	enhancement	2025-01-02T14:00:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/1085
+1084	issue	issue-feature-request	[Feature]: Add Card on click, not on Enter	enhancement	2025-01-01T17:14:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/1084
+1083	issue	issue-mobile-i18n	Sort tags functions working on iPhone, but not iPad	bug	2024-12-23T01:02:33Z	https://github.com/obsidian-community/obsidian-kanban/issues/1083
+1082	issue	issue-data-integrity	[Bug]: Deletes anything not formatted for Kanban board	bug	2024-12-22T23:46:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/1082
+1081	issue	issue-bug	[Bug]: All dates in dataview inline fields in the card are colored	bug	2024-12-20T13:32:44Z	https://github.com/obsidian-community/obsidian-kanban/issues/1081
+1080	issue	issue-bug	[Bug]: Dataview inline field "due" not recognized	bug	2024-12-20T13:20:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/1080
+1079	issue	issue-bug	[Bug]: Enter key nor Shift-Enter key adds card	bug	2024-12-11T22:00:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/1079
+1078	issue	issue-bug	[Bug]: keeps converting my boards to a note	bug	2025-03-04T21:49:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/1078
+1075	issue	issue-bug	[Bug]: README contains link to roadmap, but the link is broken	bug	2024-11-21T08:57:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/1075
+1073	pull-request	pr-feature-review	Add support for placing all Kanban data under specific level-1 header		2026-01-28T09:55:50Z	https://github.com/obsidian-community/obsidian-kanban/pull/1073
+1072	issue	issue-bug	[Bug]: Vim mode editing kanban card does not write to file	bug	2024-11-17T18:36:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/1072
+1071	pull-request	pr-feature-review	Feat: add toggle setting to place 'Move to List' card menu item at top		2024-11-17T10:13:54Z	https://github.com/obsidian-community/obsidian-kanban/pull/1071
+1070	issue	issue-bug	[Bug]: Cards moved to a "Complete" list aren't marked as complete	bug	2024-11-15T16:54:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/1070
+1069	issue	issue-bug	[Bug]: Extra --- added automatically on card	bug	2024-11-14T16:23:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/1069
+1067	issue	issue-bug	[Bug]: Latex tripping up card content	bug	2024-11-11T11:17:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/1067
+1066	issue	issue-settings	[Bug]: Daily Notes Settings should be respected	bug	2024-11-07T02:43:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/1066
+1065	issue	issue-feature-request	[Feature]: Log and display all activities within the board	enhancement	2024-12-06T08:15:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/1065
+1064	issue	issue-feature-request	[Feature]: Github Project Board Sync	enhancement	2026-03-06T08:11:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/1064
+1063	issue	issue-feature-request	[Feature]: Mark as Done	enhancement	2024-10-31T16:30:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/1063
+1062	issue	issue-feature-request	[Feature]: 为什么插件Colored Tags Wrangler不能对中文tag上色，kanban插件可以在看板视图内实现？	enhancement	2024-10-27T10:37:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/1062
+1060	issue	issue-feature-request	[Feature]: auto-update function in card sorting	enhancement	2024-10-30T07:33:28Z	https://github.com/obsidian-community/obsidian-kanban/issues/1060
+1059	issue	issue-feature-request	[Feature]: Sort notes by done date	enhancement	2024-10-31T16:31:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/1059
+1058	issue	issue-bug	[Bug]: Text Font broken after new Obsidian update	bug	2024-10-24T19:46:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/1058
+1057	issue	issue-feature-request	[Feature]: Map Lists to Custom Statuses	enhancement	2025-10-30T14:13:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/1057
+1055	issue	issue-bug	[Bug]: [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event.	bug	2025-07-19T22:04:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/1055
+1054	issue	issue-feature-request	[Feature]:  Add the ability to move tasks between boards	enhancement	2024-10-06T19:28:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/1054
+1053	issue	issue-feature-request	[Feature]: Ability to drag or position lists below other lists when the lists are shorter and there is available blank space	enhancement	2024-10-05T00:51:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/1053
+1052	pull-request	pr-unclassified-review	Current board's folder as default new note folder and customizable new note folder for a single board  		2025-03-20T12:02:41Z	https://github.com/obsidian-community/obsidian-kanban/pull/1052
+1051	issue	issue-bug	[Bug]: Unwanted scroll when draggin a card from one board to another (two or more board open on different panes)	bug	2024-10-05T16:42:58Z	https://github.com/obsidian-community/obsidian-kanban/issues/1051
+1049	pull-request	pr-unclassified-review	Open Search with Find & Replace hotkey		2024-09-21T14:09:15Z	https://github.com/obsidian-community/obsidian-kanban/pull/1049
+1048	issue	issue-performance	[Bug]: Date colors don't update when the date changes	bug	2024-09-19T16:03:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/1048
+1047	issue	issue-bug	[Bug]: Multi-Column plugin interference with kanban plugins 	bug	2024-09-08T23:55:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/1047
+1046	issue	issue-feature-request	[Feature]: Allow for overview notes on the kanban board	enhancement	2024-10-13T14:46:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/1046
+1044	issue	issue-bug	[Bug]: Cannot Drag Before Startup	bug	2024-09-11T02:22:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/1044
+1043	issue	issue-bug	[Bug]: inline metadata rendered as tasks - checkboxes are not clickable	bug	2025-01-23T15:04:59Z	https://github.com/obsidian-community/obsidian-kanban/issues/1043
+1042	issue	issue-feature-request	[Feature]: give the opportunity to add your own information to the note that is not related to tasks	enhancement	2024-11-19T21:59:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/1042
+1041	issue	issue-feature-request	[Feature]: Create note from card should have an option to copy contents from the card	enhancement	2024-09-01T19:17:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/1041
+1040	issue	issue-feature-request	[Feature]: Add item type support	enhancement	2024-12-31T04:59:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/1040
+1038	issue	issue-feature-request	[Feature]: Add filter by Tag	enhancement	2025-10-11T17:20:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/1038
+1036	issue	issue-bug	[Bug]: Time until: not working properly	bug	2024-08-20T00:37:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/1036
+1035	pull-request	pr-unclassified-review	Toggle Metadata Visibility		2024-08-16T00:10:54Z	https://github.com/obsidian-community/obsidian-kanban/pull/1035
+1034	issue	issue-feature-request	[Feature]: 内容文本过于靠左，关闭复选框后，导致有些内容（特别是列表符号）被遮挡。	enhancement	2024-08-12T01:28:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/1034
+1032	issue	issue-feature-request	[Feature]: Keep text when clicking away from card I'm editing	enhancement	2026-02-09T21:36:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/1032
+1031	issue	issue-feature-request	[Feature]: Share Note plugin can't crate a link to the Kanban board	enhancement	2024-08-10T14:58:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/1031
+1030	issue	issue-feature-request	[Feature]: Add option- 'Double tap to open cards & Symbol Triggers Note create on card'	enhancement	2024-08-09T04:20:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/1030
+1029	issue	issue-bug	[Bug]: Unable to open the Kanban in Obsidian 无法在 Obsidian 中打开 kanban 和添加 list	bug	2024-08-20T04:00:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/1029
+1028	issue	issue-bug	[Bug]: Silent error when failing to create a new note from a card	bug	2024-08-06T13:40:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/1028
+1026	issue	issue-settings	[Feature]: Migrate Classic Project at Organization level configs	enhancement	2024-08-05T03:59:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/1026
+1025	issue	issue-feature-request	[Feature]: 希望作者大大能保留“隐藏标题中的标签”这个功能	enhancement	2024-07-30T07:22:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/1025
+1024	issue	issue-bug	[Bug]: Table error display	bug	2024-07-30T06:29:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/1024
+1023	issue	issue-bug	[Bug]: Card edit	bug	2024-07-30T18:55:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/1023
+1022	issue	issue-feature-request	[Feature]: Display ONLY frontmatter tags	enhancement	2024-07-20T02:08:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/1022
+1021	issue	issue-data-integrity	[Feature]: Keyboard control scheme for navigation, deletion, duplication, finishing cards.	enhancement	2024-11-18T11:17:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/1021
+1020	issue	issue-feature-request	[Feature]: Issue tag color wildcard support	enhancement	2024-07-15T16:15:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/1020
+1019	issue	issue-feature-request	[Feature]: Add todo integration with Admonitions (Obsidian plugin)	enhancement	2024-07-15T10:16:27Z	https://github.com/obsidian-community/obsidian-kanban/issues/1019
+1017	pull-request	pr-bugfix-review	Fixed behaviour for tags in titles and file properties		2025-04-02T06:42:47Z	https://github.com/obsidian-community/obsidian-kanban/pull/1017
+1016	issue	issue-bug	[Bug]: Tag removed and used in the note title when creating new note from task	bug	2025-06-14T05:24:40Z	https://github.com/obsidian-community/obsidian-kanban/issues/1016
+1015	issue	issue-feature-request	[Feature]: We need more customizable options.	enhancement	2024-07-09T00:09:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/1015
+1014	issue	issue-mobile-i18n	Duplicated menu item, on the latest version of the plugin (2.0.51) on Android.		2024-07-10T12:59:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/1014
+1013	issue	issue-bug	[Bug]: If you write something, the space is stretched.	bug	2024-07-12T16:46:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/1013
+1012	pull-request	pr-unclassified-review	Use standard icon size variables		2024-07-02T15:16:53Z	https://github.com/obsidian-community/obsidian-kanban/pull/1012
+1011	issue	issue-data-integrity	[Feature]: Hotkeys for Archive + Delete card when hoovering cursor above (Trello style)	enhancement	2025-06-04T18:54:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/1011
+1008	pull-request	pr-bugfix-review	Fix bug in date display color overriding 'before' ranges		2024-06-27T21:00:26Z	https://github.com/obsidian-community/obsidian-kanban/pull/1008
+1007	issue	issue-settings	[Feature]: Add a setting to disable Tasks plugin integration	enhancement	2024-06-27T16:21:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/1007
+1006	issue	issue-bug	[Bug]: Time trigger not recognized when time's minute is between 1 and 31	bug	2024-06-27T15:45:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/1006
+1005	issue	issue-mobile-i18n	[Bug]: Unable to move cards between lists on iPad.	bug	2024-06-27T14:11:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/1005
+1004	issue	issue-bug	[Bug]: kanban:card-updated and other events no longer fire	bug	2024-06-27T13:36:59Z	https://github.com/obsidian-community/obsidian-kanban/issues/1004
+1003	issue	issue-feature-request	[Feature]: Remote image url	enhancement	2024-06-24T06:17:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/1003
+1002	issue	issue-bug	[Bug]: 我的天...卡爆我了	bug	2024-11-07T18:04:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/1002
+1001	issue	issue-feature-request	[Feature]: Show tags only from current kanban	enhancement	2024-06-22T15:37:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/1001
+1000	issue	issue-bug	[Bug]: Multiple dates can be inserted with `@`, but only the first one can be edited	bug	2024-06-21T14:16:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/1000
+999	issue	issue-feature-request	[Feature]: Colored cards	enhancement	2025-07-16T15:14:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/999
+998	issue	issue-data-integrity	[Bug]: Pushing Enter wont close the card 	bug	2025-09-30T11:08:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/998
+996	issue	issue-bug	[Bug]: New notes from cards notes not created in folder set in "Note folder"	bug	2026-02-22T15:52:25Z	https://github.com/obsidian-community/obsidian-kanban/issues/996
+995	issue	issue-mobile-i18n	[Feature]: Transferring control buttons on the mobile version (on version 1.5.3.)	enhancement	2024-06-19T17:27:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/995
+994	issue	issue-feature-request	[Feature]: One more hyrarchical drag and drop for subtasks	enhancement	2024-07-05T15:14:39Z	https://github.com/obsidian-community/obsidian-kanban/issues/994
+993	issue	issue-feature-request	[Feature]:  More list options (auto tags, auto dates...)	enhancement	2025-03-18T16:48:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/993
+992	issue	issue-feature-request	[Feature]: auto create notes for cards	enhancement	2024-10-01T06:49:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/992
+991	issue	issue-feature-request	[Feature]: Add a calendar view	enhancement	2024-06-16T02:20:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/991
+990	issue	issue-feature-request	[Feature]: 'sort list by name'	enhancement	2024-06-14T15:34:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/990
+988	issue	issue-feature-request	[Feature]: I hope to use tasks calendar wrapper to jump to complete tasks. This will be a great improvement for Kanban task management.	enhancement	2024-06-11T17:21:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/988
+987	issue	issue-feature-request	[Feature]: Allow table view to be full width as well.	enhancement	2024-06-10T06:50:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/987
+986	issue	issue-bug	[Bug]: Tasks Pane stays open even after card is created	bug	2024-06-10T06:49:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/986
+985	issue	issue-data-integrity	[Bug]: Failed to save "file name" automatically. Please save the file to make sure edits are retained	bug	2024-06-23T21:29:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/985
+984	issue	issue-bug	[Bug]: When creating a list, toggling "Mark card in this list as complete", did not make a "completed" list.	bug	2024-06-10T00:53:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/984
+983	issue	issue-support-or-unclassified	Kanban Tables: Can't find a description		2024-06-08T13:05:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/983
+982	issue	issue-feature-request	加一个链接简写	enhancement	2024-06-08T02:50:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/982
+981	issue	issue-bug	[Bug]: Random duplication of every cards in Kanban after moving cards	bug	2024-06-07T19:53:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/981
+980	issue	issue-feature-request	[Feature]: CalDAV integration	enhancement	2024-06-06T10:42:05Z	https://github.com/obsidian-community/obsidian-kanban/issues/980
+979	issue	issue-bug	[Bug]: Kanban V2 with Dataviewjs scripts / Moving files leeds to errors	bug	2024-06-04T11:45:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/979
+978	issue	issue-bug	[Bug]: Clicking outline of the Kanban note  in the sidebar   makes note blank 	bug	2024-06-03T15:53:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/978
+977	issue	issue-performance	[Feature]: Color Change on date/marker when checkbox is active	enhancement	2024-06-03T07:04:08Z	https://github.com/obsidian-community/obsidian-kanban/issues/977
+976	issue	issue-feature-request	[Feature]: make kanban icon in ribbon optional	enhancement	2024-06-05T22:32:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/976
+975	issue	issue-feature-request	[Feature]: toggle tag visibility	enhancement	2024-07-30T07:29:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/975
+974	issue	issue-performance	[Bug]: Kanban v2 rendering to be very slow when installed together with some other plugins.	bug	2024-05-31T05:51:08Z	https://github.com/obsidian-community/obsidian-kanban/issues/974
+970	issue	issue-bug	[Bug]: Previously dragging a non-md file onto board displayed a link to the file name in the card. It now attempts to renders the file	bug	2024-06-06T10:42:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/970
+969	issue	issue-feature-request	[Feature]: Add option to use the date format of the Tasks plugin / ensure compatibility with Tasks plugin	enhancement	2025-01-04T18:34:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/969
+965	issue	issue-bug	[Bug]: Linked note title not updating / refreshing after templater script runs and adjusted the title.	bug	2024-05-31T03:29:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/965
+962	issue	issue-feature-request	[Feature]: Better support for zooming photos	enhancement	2024-05-25T20:04:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/962
+960	issue	issue-feature-request	[Feature]: Date & Tag colours for light and dark mode.	enhancement	2024-05-25T09:25:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/960
+957	issue	issue-bug	[Bug]: New Note from Card with a tag in the heading breaking the link	bug	2024-05-25T15:28:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/957
+948	issue	issue-feature-request	[Feature]: Ability to enable/disable the display of checkboxes for each individual list within a single kanban board	enhancement	2024-05-09T13:01:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/948
+947	issue	issue-feature-request	[Feature]: Apply styling to tags and dates from linked notes properties the same way as tags and dates on cards	enhancement	2024-06-06T07:07:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/947
+945	issue	issue-bug	[Bug]: Can't drag cards on ChromeOS	bug	2025-07-07T13:47:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/945
+944	issue	issue-feature-request	[Feature]: Hope date can be show in different way	enhancement	2024-05-07T05:43:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/944
+940	issue	issue-feature-request	[Feature]: Add an option for hide parent tags and '#'	enhancement	2024-05-03T11:25:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/940
+929	issue	issue-feature-request	[Feature]: (2.0) Keep view state (mode + collapse) with view, not board	enhancement	2024-05-02T19:00:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/929
+926	issue	issue-feature-request	[Feature]: Synchronize with Checklist plugin to pre-populate Kanban	enhancement	2024-04-26T17:01:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/926
+925	issue	issue-bug	[Bug]: Can't add new item	bug	2025-09-30T11:03:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/925
+921	issue	issue-feature-request	[Feature]: Drag tasks to completed to add to the end of the day's diary	enhancement	2024-04-18T09:18:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/921
+918	issue	issue-feature-request	[Feature]: "Open as Kanban" i.e. a way to reverse "Open as Markdown"	enhancement	2024-04-20T06:52:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/918
+914	issue	issue-feature-request	[Feature]: [Bug]: Copy Link to Card across multiple Kanban Boards		2024-04-03T14:24:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/914
+911	pull-request	pr-unclassified-review	Display task counter in the card title		2025-02-19T13:48:19Z	https://github.com/obsidian-community/obsidian-kanban/pull/911
+910	issue	issue-feature-request	[Feature]: Add a "Linked Page Metadata" called [List], and update this Metadata when the card is moved to another "List"	enhancement	2024-03-15T05:39:50Z	https://github.com/obsidian-community/obsidian-kanban/issues/910
+909	issue	issue-support-or-unclassified	Is this project dead?		2025-07-30T19:52:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/909
+908	issue	issue-settings	[Bug]: Mobile positioning of settings tab is off	bug	2024-08-08T15:12:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/908
+907	issue	issue-mobile-i18n	[Bug]: No submission of new ticket possible on mobile when typing a long text in card	bug	2024-08-08T15:57:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/907
+906	issue	issue-feature-request	[Feature]: Show Document Title	enhancement	2024-03-06T17:17:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/906
+905	issue	issue-bug	[Bug]: Tags are showing twice in same card	bug	2024-05-10T08:47:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/905
+904	issue	issue-bug	[Bug]: Date is showing both formatted and in chip	bug	2024-03-06T16:17:21Z	https://github.com/obsidian-community/obsidian-kanban/issues/904
+903	issue	issue-bug	[Bug]: Checkboxes (manual and automatic) in Kanban boards not displayed correctly	bug	2024-03-06T08:57:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/903
+902	issue	issue-bug	[Bug]: Can't drag and drop cards	bug	2025-08-17T12:56:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/902
+901	issue	issue-bug	[Bug]: Enlarging an image in a long list either hides or crops the image	bug	2024-03-05T07:25:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/901
+900	issue	issue-feature-request	[Feature]: Also add end time and end date. Just for visual feedback so you know you got 2 hours for a task or meeting	enhancement	2024-12-01T22:40:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/900
+899	issue	issue-bug	[Bug]: logo of callouts not displayed in card	bug	2024-02-21T09:33:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/899
+898	issue	issue-bug	[Bug]: Kanaban does not works	bug	2024-04-05T01:18:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/898
+895	issue	issue-feature-request	Bigger Headings	enhancement	2024-02-16T14:23:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/895
+894	issue	issue-feature-request	[Feature]: Add option to sort tasks by tags	enhancement	2024-05-30T03:59:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/894
+893	issue	issue-feature-request	[Feature]: When creating a note from card, add an option to move tags from card title to the frontmatter without altering the text	enhancement	2024-02-06T13:42:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/893
+892	issue	issue-feature-request	[Feature]: Ability to Hide/Filter Lists from a Board	enhancement	2024-02-06T19:15:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/892
+890	issue	issue-feature-request	[Feature]:  Support for Obsidian Publish	enhancement	2025-02-23T14:53:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/890
+889	issue	issue-bug	[Bug]: Duplicate tags are displayed in cards	bug	2024-02-14T09:58:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/889
+888	pull-request	pr-unclassified-review	Hide a scroll bar appearing on the right of some Kanban items		2024-04-28T23:37:17Z	https://github.com/obsidian-community/obsidian-kanban/pull/888
+884	issue	issue-performance	[Bug]: Freeze on Settings Open	bug	2025-02-01T02:23:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/884
+883	issue	issue-bug	[Bug]: Grey Lozenge Appears on List and Card Titles When Title is Short	bug	2024-01-20T20:55:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/883
+882	issue	issue-feature-request	[Feature]: Add vertical scrolling waterfall layout	enhancement	2024-05-05T05:07:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/882
+880	issue	issue-feature-request	[Feature]: Add an auto-checkmark feature to kanban	enhancement	2024-02-06T15:58:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/880
+879	issue	issue-bug	[Bug]: New card... dark theme... pale grey text on white background	bug	2024-03-23T02:46:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/879
+878	issue	issue-bug	[Bug]:  adding todays date in the task card is reverting it to Jan 1st 2024	bug	2024-03-23T02:44:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/878
+877	issue	issue-feature-request	[Feature]: Support Bullets	enhancement	2024-01-05T13:56:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/877
+876	issue	issue-bug	[Bug]: checkbox mismatch with strikethrough	bug	2024-01-04T20:55:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/876
+874	issue	issue-feature-request	[Feature]: Add Notes on Lists using Properties	enhancement	2025-08-29T11:05:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/874
+873	issue	issue-feature-request	[Feature]: More options when create "New note from card"	enhancement	2024-09-19T02:11:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/873
+872	issue	issue-data-integrity	[Feature]: Add custom Action to "Archive Card" and "Delete Card" to card(s) in Kanban with linked note	enhancement	2026-03-17T07:27:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/872
+871	issue	issue-bug	[Bug]: after submit, time code still appear on the text 	bug	2023-12-22T18:29:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/871
+870	issue	issue-bug	[Bug]: Archiving does not honor cancelled and in progress task statuses	bug	2023-12-20T19:45:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/870
+868	issue	issue-feature-request	[Feature]: Find in board	enhancement	2024-01-01T18:24:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/868
+867	issue	issue-bug	[Bug]: Checkbox linked from an other part of the file is not updated on checked	bug	2023-12-15T21:23:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/867
+865	issue	issue-feature-request	[Feature]: Add the note to current folder	enhancement	2026-07-14T06:47:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/865
+864	issue	issue-settings	When "display card checkbox" setting is unchecked, also remove "[ ]" from markdown view		2023-12-04T16:57:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/864
+863	issue	issue-feature-request	[Feature]: Add tag alias	enhancement	2023-12-04T10:56:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/863
+862	issue	issue-feature-request	[Feature]: Custom Background Creation 	enhancement	2023-12-03T20:27:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/862
+861	issue	issue-feature-request	[Feature]: create any new card with a leading unique ID/Number	enhancement	2024-03-08T19:56:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/861
+860	issue	issue-feature-request	[Feature]: 多级文件夹	enhancement	2023-11-22T07:25:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/860
+858	issue	issue-feature-request	[Feature]: Have the ability to show multiple dates ?	enhancement	2025-12-02T20:26:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/858
+857	issue	issue-settings	[Feature]: the setting for card height	enhancement	2023-11-16T06:52:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/857
+856	issue	issue-feature-request	[Feature]: Open notes to the right when clicking on them in kanban board	enhancement	2023-11-16T06:02:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/856
+855	issue	issue-data-integrity	[Bug]: Lost content in daily note which is not displayed in Kanban mode	bug	2023-11-15T03:04:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/855
+854	issue	issue-feature-request	[Feature]: Pull and manipulate all cards from multiple boards that are in the equally named column in a separate synthetic Kanban board	enhancement	2023-11-06T21:35:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/854
+851	issue	issue-bug	[Bug]: 	bug	2024-11-20T09:10:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/851
+849	issue	issue-feature-request	[Feature]: Expose custom callbacks each time a note is moved between lists	enhancement	2023-10-26T08:22:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/849
+848	issue	issue-bug	[Bug]: card title gets badly formatted	bug	2023-10-25T22:29:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/848
+847	issue	issue-feature-request	[Feature]: 从指定文件夹搜寻待办/子弹任务列表	enhancement	2023-10-25T07:04:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/847
+846	issue	issue-bug	[Bug]: card with a linked note sticks to cursor when note is opened in new window 	bug	2023-10-21T12:56:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/846
+843	issue	issue-settings	[Feature]: New Setting for binding a Status property or Tags in linked Document with the lanes name	enhancement	2024-01-31T23:03:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/843
+842	issue	issue-feature-request	[Feature]: Board & their listed notes auto mover & add Hotkey.	enhancement	2023-10-09T08:02:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/842
+840	issue	issue-feature-request	[Feature]: Add `data-key` attribute even when key is hidden	enhancement	2023-10-06T05:11:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/840
+839	issue	issue-performance	[Bug]: Externally modifying an open Kanban board changes it to markdown mode	bug	2024-03-07T21:25:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/839
+837	issue	issue-feature-request	[Feature]: Template for cards	enhancement	2023-12-20T17:27:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/837
+836	issue	issue-feature-request	[Feature]: Keyboard Navigation Between Items/Panes	enhancement	2024-07-16T06:17:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/836
+835	issue	issue-feature-request	[Feature]: Editing/Subtasks	enhancement	2024-12-28T01:21:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/835
+834	issue	issue-feature-request	[Feature]: Color date based on completion	enhancement	2023-09-29T18:57:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/834
+833	issue	issue-bug	[Bug]: 	bug	2023-09-29T07:02:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/833
+831	issue	issue-bug	[Bug]:multi date tag colors [ between now and [x] before now ] longest x overide other x's color	bug	2023-09-25T22:34:08Z	https://github.com/obsidian-community/obsidian-kanban/issues/831
+830	issue	issue-bug	[Bug]: "Copy Link to Card" links to wrong card, if the card was created by "Duplicate card"	bug	2023-10-20T05:01:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/830
+826	issue	issue-feature-request	[Feature]: Better way to move cards between lists	enhancement	2024-11-21T08:52:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/826
+824	issue	issue-feature-request	[Feature]: 希望看板支持下大纲的点击切换	enhancement	2023-09-01T04:51:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/824
+822	issue	issue-bug	[Bug]: Card created don't linked to the Calendars	bug	2023-08-31T08:34:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/822
+821	issue	issue-data-integrity	[Feature]:  Option to save what is selected in a dropdown	enhancement	2023-08-29T07:36:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/821
+819	issue	issue-feature-request	[Feature]: 	enhancement	2023-08-27T14:05:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/819
+818	issue	issue-bug	[Bug]: 'Add list' button text is always white in light mode	bug	2024-03-24T17:47:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/818
+815	issue	issue-feature-request	[Feature]: Kanban Board in a normal note	enhancement	2023-09-30T19:45:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/815
+814	issue	issue-feature-request	[Feature]: Option to create a new Note when new Ticket is created 	enhancement	2023-09-20T23:12:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/814
+813	issue	issue-feature-request	[Feature]: Folder name is always displayed in kanban ex: Kanban Tickets/Ticket NameSomething	enhancement	2023-08-13T14:44:01Z	https://github.com/obsidian-community/obsidian-kanban/issues/813
+812	issue	issue-feature-request	[Feature]: Add a way to put a list below another list.	enhancement	2024-10-22T21:29:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/812
+811	issue	issue-bug	[Bug]: Calendar cursor navigation does not consider alternate first day of the week 	bug	2023-08-11T11:28:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/811
+810	issue	issue-performance	[Bug]: calendar current date doesn't change until application is restarted	bug	2023-08-06T17:31:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/810
+808	issue	issue-bug	[Bug]: date code appearing	bug	2023-09-13T14:38:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/808
+804	issue	issue-feature-request	[Feature]: Option to disable 'More options' dots on cards	enhancement	2024-01-10T08:11:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/804
+802	issue	issue-mobile-i18n	[Bug]: Adding 15+ cards to a single list causes a bug on mobile	bug	2023-07-22T17:45:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/802
+801	issue	issue-bug	[Bug]: Display Tag Colours Not Working	bug	2024-01-01T18:30:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/801
+799	issue	issue-feature-request	[Feature]: Colored Tags for Tags of linked cards as well	enhancement	2023-07-17T11:58:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/799
+798	issue	issue-bug	[Bug]: Custom Task Statuses Not Preserved	bug	2023-07-13T03:56:39Z	https://github.com/obsidian-community/obsidian-kanban/issues/798
+797	issue	issue-feature-request	[Feature]: Dynamic Note folder	enhancement	2023-07-12T21:38:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/797
+794	issue	issue-feature-request	[Feature]: paste path to file outside of vault as markdown link	enhancement	2023-06-28T13:55:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/794
+793	issue	issue-bug	[Bug]: 	bug	2023-06-26T15:23:33Z	https://github.com/obsidian-community/obsidian-kanban/issues/793
+792	issue	issue-feature-request	[Feature]: hope Line break use markdown format instead of `<br>`	enhancement	2023-06-20T09:41:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/792
+791	issue	issue-settings	[Feature]: Apply date color settings to relative dates	enhancement	2023-06-16T22:13:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/791
+790	issue	issue-feature-request	[Feature]: Priority 	enhancement	2023-08-29T18:05:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/790
+789	issue	issue-feature-request	[Feature]: Card Weights and List Totals	enhancement	2023-06-15T15:45:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/789
+788	issue	issue-feature-request	[Feature]: Trello integration	enhancement	2024-01-13T13:54:28Z	https://github.com/obsidian-community/obsidian-kanban/issues/788
+787	issue	issue-bug	[Bug]: Plugin reformats `yml` front matter undesirably 	bug	2023-06-04T19:38:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/787
+786	issue	issue-feature-request	[Feature]: emit creation path at `kanban:card-added` event	enhancement	2023-06-03T11:15:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/786
+785	issue	issue-bug	[Bug]: Create new notes each time I click on a card	bug	2023-06-03T09:15:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/785
+783	issue	issue-bug	[Bug]: Embedding Kanban in Callout renders a gap	bug	2023-05-29T07:49:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/783
+782	issue	issue-feature-request	[Feature]: Move archived note to other folder	enhancement	2023-05-19T15:00:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/782
+781	issue	issue-feature-request	[Feature]: Percentage Complete	enhancement	2023-05-17T16:33:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/781
+780	issue	issue-bug	[Bug]: Default Folder per Kanban Board	bug	2023-05-24T14:45:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/780
+779	issue	issue-performance	[Bug]: Typing lag if opened in split window	bug	2023-11-26T19:56:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/779
+778	issue	issue-bug	[Bug]: "Link dates to daily notes" doesn't support date format	bug	2024-06-14T20:45:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/778
+774	pull-request	pr-unclassified-review	[WIP] Change table to definition list in MetadataTable		2024-04-28T23:37:17Z	https://github.com/obsidian-community/obsidian-kanban/pull/774
+770	issue	issue-feature-request	[Feature]: Assign tasks to people	enhancement	2026-03-26T00:39:48Z	https://github.com/obsidian-community/obsidian-kanban/issues/770
+768	issue	issue-feature-request	[Feature]: Option to move completed cards to bottom of list	enhancement	2023-05-09T04:30:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/768
+767	issue	issue-feature-request	[Feature]: Embed Kanban into cavnas for use.	enhancement	2023-09-11T00:21:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/767
+766	issue	issue-mobile-i18n	Submit button not working with mouse / trackpad on iPad	bug	2023-04-30T15:29:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/766
+765	issue	issue-feature-request	[Feature]: Check the box and the card goes to Archive	enhancement	2024-11-29T01:17:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/765
+761	issue	issue-feature-request	[Feature]: Enable Tasks Plugin Modal in Kanban view	enhancement	2025-03-28T07:05:39Z	https://github.com/obsidian-community/obsidian-kanban/issues/761
+759	issue	issue-bug	[Bug]: can't open file explorer links	bug	2023-04-13T03:02:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/759
+758	issue	issue-bug	[Bug]: Error with Kanban 1.5.2 in sidebar at startup of Obsidian 1.1.16	bug	2023-04-10T20:46:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/758
+756	issue	issue-feature-request	[Feature]: Ribbon command for creating a new Kanban Board	enhancement	2024-01-31T15:43:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/756
+755	issue	issue-performance	[Feature]: Change the Color of the different Kanban Lists	enhancement	2025-11-21T16:25:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/755
+754	issue	issue-bug	[Bug]: "Copy Link to Card" links don't work as expected	bug	2023-03-25T06:38:33Z	https://github.com/obsidian-community/obsidian-kanban/issues/754
+751	issue	issue-performance	[Bug]: Moving of cards in a large board on mobile is extremely slow and laggy	bug	2024-10-25T12:44:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/751
+749	issue	issue-feature-request	[Feature]: Card datetime logs	enhancement	2023-03-20T14:44:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/749
+746	issue	issue-feature-request	[Feature]: Improve checkbox usage	enhancement	2023-03-14T10:34:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/746
+745	issue	issue-bug	[Bug]: Dates are not highlighted	bug	2023-04-06T21:41:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/745
+744	issue	issue-feature-request	[question]: is it possible that the cards in a list are in separated notes within the Kanban board; rather that a single note for all the board?	enhancement	2023-03-11T17:42:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/744
+742	issue	issue-bug	[Bug]: Cannot drag cards and lists when using obsidian under Debian GNOME	bug	2023-03-03T11:24:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/742
+741	issue	issue-settings	[Feature]: Add setting to automatically add text to new cards from a note, and or a time.	enhancement	2023-03-03T05:38:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/741
+740	issue	issue-feature-request	[Feature]: Create Kanban Board from Template	enhancement	2023-03-02T02:23:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/740
+739	issue	issue-feature-request	[Feature]: Coloured card tags	enhancement	2023-05-24T09:59:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/739
+738	issue	issue-feature-request	[Feature]: Portfolio management	enhancement	2023-02-22T20:16:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/738
+737	issue	issue-feature-request	[Feature]: Add data and time support for full calendar	enhancement	2023-02-20T04:00:08Z	https://github.com/obsidian-community/obsidian-kanban/issues/737
+736	issue	issue-feature-request	[Feature]: More Sophisticated Date Parsing and Selection (Code to implement included)	enhancement	2023-02-15T22:23:39Z	https://github.com/obsidian-community/obsidian-kanban/issues/736
+735	issue	issue-performance	[Bug]: plugin options (settings dialog) freezes	bug	2025-02-01T02:18:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/735
+734	issue	issue-data-integrity	[Bug]: Tasks not saved somtimes	bug	2023-02-11T17:58:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/734
+733	issue	issue-bug	[Bug]: Clicking on Canvas Link in Kanban triggers "Open in App" dialog, instead of opening the canvas in Obsidian.	bug	2023-11-05T10:43:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/733
+732	issue	issue-bug	[Bug]: When switching to markdown view, the menu emtry to switch back is missing.	bug	2023-09-22T07:24:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/732
+731	issue	issue-bug	[Bug]: Initial entry of a task query does not render correctly in kanban card	bug	2023-02-04T20:55:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/731
+730	issue	issue-bug	[Bug]: check boxes are cutted	bug	2023-02-01T19:23:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/730
+729	issue	issue-support-or-unclassified	Is this plugin active?		2023-02-01T19:14:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/729
+728	issue	issue-bug	[Bug]: The  template function cannot working	bug	2024-04-15T04:08:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/728
+727	issue	issue-feature-request	[Feature]: Always commit edit when exiting edit mode	enhancement	2025-04-07T20:52:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/727
+724	issue	issue-performance	[Bug]: Plugin fails to load on ChromeOS	bug	2023-01-17T23:10:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/724
+723	issue	issue-feature-request	[Feature]: Snap to list	enhancement	2023-01-16T15:57:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/723
+722	issue	issue-bug	[Bug]: list has multiplied when new card is created	bug	2023-02-17T07:20:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/722
+721	issue	issue-feature-request	[Feature]: Horizontal allignment	enhancement	2024-03-12T16:13:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/721
+720	issue	issue-bug	[Bug]: (Minor) When title of Kanban column ends with digits in (), digits are displayed as # of cards in this column	bug	2023-01-10T06:26:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/720
+719	issue	issue-feature-request	[Feature]: Creating notes from cards should place them in the same folder as the board	enhancement	2025-04-09T14:06:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/719
+718	issue	issue-feature-request	[Feature]: Get Tags from Linked Notes	enhancement	2024-03-17T19:45:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/718
+717	issue	issue-feature-request	[Feature]: add a sumbit button when editing card	enhancement	2023-01-06T15:39:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/717
+714	issue	issue-bug	[Bug]: Subbullet checkboxes are partially cut of on the left	bug	2023-02-20T10:28:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/714
+713	issue	issue-bug	[Bug]: Dataview metadata in YAML frontmatter is rewritten	bug	2023-04-24T19:05:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/713
+712	issue	issue-feature-request	[Feature]: Read-only mode	enhancement	2022-12-30T09:15:25Z	https://github.com/obsidian-community/obsidian-kanban/issues/712
+711	issue	issue-bug	[Bug]: 	bug	2022-12-29T15:51:28Z	https://github.com/obsidian-community/obsidian-kanban/issues/711
+710	issue	issue-bug	[Bug]: "kanban-plugin":"basic" is not a valid attribute name	bug	2023-01-13T07:39:48Z	https://github.com/obsidian-community/obsidian-kanban/issues/710
+709	issue	issue-bug	[Bug]: Always insert todo blank column	bug	2022-12-27T09:02:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/709
+708	issue	issue-feature-request	[Feature]: Add events to Kanban	enhancement	2022-12-25T01:45:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/708
+707	issue	issue-bug	[Bug]: Date picker not working or updating set dates	bug	2023-02-15T19:47:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/707
+706	issue	issue-feature-request	[Feature]: Allow moving cards between boards		2023-01-15T13:34:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/706
+705	issue	issue-bug	[Bug]: Left side of checkboxes cropped out in inside checkbox lists	bug	2023-01-28T20:24:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/705
+704	issue	issue-bug	[Bug]: Unable to display hidden callout contents	bug	2022-12-22T17:53:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/704
+703	issue	issue-settings	[Bug]: Both *New line trigger* settings trigger new line on iPad—neither complete editing	bug	2022-12-22T11:05:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/703
+702	issue	issue-mobile-i18n	[Bug]: Panning/scrolling on mobile (Android) activates links	bug	2023-05-16T17:04:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/702
+701	issue	issue-bug	[Bug]: Cannot use command + option + click to open a link to the right	bug	2023-01-06T15:49:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/701
+700	issue	issue-mobile-i18n	[Bug]: Cannot submit new card with cursor/trackpad on iPad 	bug	2024-04-26T21:11:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/700
+699	issue	issue-bug	[Bug]: Contents of one of my kanban board just disapeared	bug	2022-12-18T16:46:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/699
+698	issue	issue-feature-request	[Feature]: Display file-name of embeds as card-title; extracting tags and dates for below	enhancement	2022-12-18T14:38:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/698
+697	issue	issue-feature-request	[Feature]: Display Embeds without the need to be a bullet point	enhancement	2022-12-18T14:34:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/697
+696	issue	issue-bug	[Bug]: Tags don't display at all	bug	2024-04-27T13:39:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/696
+695	issue	issue-settings	[Bug]: Local Setting maximum number of archived card doesn't work	bug	2022-12-14T06:01:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/695
+694	issue	issue-feature-request	[Feature]: Ability to embed Kanban in a Canvas	enhancement	2023-02-22T16:50:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/694
+693	issue	issue-bug	[Bug]: Kanban will sometimes have issues if left open for long periods of time	bug	2023-07-16T07:30:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/693
+692	issue	issue-feature-request	[Feature]: Add Scrollbar to List	enhancement	2022-12-13T04:07:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/692
+691	issue	issue-bug	[Bug]: Duplicate template content in notes more than two folders deep.	bug	2022-12-08T23:27:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/691
+690	issue	issue-feature-request	[Feature]: Drag&Drop or Copy/Paste cards between Kanban and Canvas.	enhancement	2022-12-08T11:58:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/690
+687	issue	issue-feature-request	[Feature]: option for quick copying of a card	enhancement	2023-03-05T10:13:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/687
+686	issue	issue-feature-request	[Feature]: option to make the overall board take 100% of the width	enhancement	2022-11-25T10:57:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/686
+685	issue	issue-feature-request	[Feature]: Add a date when a card is completed - in the same way you can when archived	enhancement	2023-12-21T03:02:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/685
+684	issue	issue-feature-request	[Feature]: Links with other kanban files items	enhancement	2022-11-22T05:33:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/684
+682	issue	issue-bug	[Bug]: Failed to enable plugin in 1.0	bug	2022-11-15T21:20:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/682
+680	issue	issue-bug	[Bug]: Turn off the tab title bar but still exist in kanban view	bug	2022-11-10T15:56:54Z	https://github.com/obsidian-community/obsidian-kanban/issues/680
+679	issue	issue-feature-request	[Feature]: Support for obsidian projects plugin	enhancement	2022-11-16T21:31:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/679
+678	issue	issue-bug	[Bug]: 	bug	2022-11-07T17:52:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/678
+677	issue	issue-bug	[Bug]: A scroll bar appears on the right	bug	2024-01-03T10:58:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/677
+676	issue	issue-bug	[Bug]: didn't support new tab/new group/new window feature when click card note	bug	2022-11-05T08:36:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/676
+674	issue	issue-feature-request	[Feature]: Display subtasks	enhancement	2025-01-23T15:04:08Z	https://github.com/obsidian-community/obsidian-kanban/issues/674
+673	issue	issue-bug	[Bug]: Button text invisible	bug	2022-10-28T17:14:05Z	https://github.com/obsidian-community/obsidian-kanban/issues/673
+672	issue	issue-feature-request	[Feature]: Time tracking	enhancement	2024-10-17T10:18:09Z	https://github.com/obsidian-community/obsidian-kanban/issues/672
+670	issue	issue-performance	[Bug]: Slow down / freeze, when opening "new note from card"	bug	2022-11-02T15:38:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/670
+668	issue	issue-bug	[Bug]: Checkbox Cycle Hotkey does not work	bug	2023-01-06T21:38:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/668
+667	issue	issue-feature-request	[Feature]: Wildcard Tag color matching	enhancement	2023-07-09T02:54:21Z	https://github.com/obsidian-community/obsidian-kanban/issues/667
+666	issue	issue-bug	[Bug]: Switching away from kanban board no longer maintain reading-mode status in split pane layout	bug	2022-10-20T03:59:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/666
+665	issue	issue-mobile-i18n	[Bug]: "+Add a card" not showing up on IOS for long kanban lists	bug	2024-02-01T17:59:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/665
+662	issue	issue-feature-request	Feature Request: Switching between Kanban- and Markdown-View		2022-12-09T12:40:33Z	https://github.com/obsidian-community/obsidian-kanban/issues/662
+661	issue	issue-feature-request	[Feature]: Add board actions as Hotkeys/Commands	enhancement	2022-10-15T22:04:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/661
+659	issue	issue-feature-request	[Feature]: Kaban input based on Dataview query of tasks	enhancement	2022-10-26T08:45:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/659
+658	issue	issue-bug	[Bug]: Some items are not displaying correctly	bug	2022-10-20T17:47:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/658
+656	issue	issue-bug	[Bug]: date colors not affecting text nor the relative date	bug	2023-09-05T15:54:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/656
+655	issue	issue-bug	[Bug]: Blockquotes are not Rendered; Callouts are missing icon in Kanban Items	bug	2022-10-09T17:07:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/655
+654	issue	issue-feature-request	[Feature]: Invested Time Tracking | Pomodoro timer	enhancement	2022-10-09T10:37:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/654
+653	issue	issue-performance	changing card color by tags		2022-10-11T17:19:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/653
+652	issue	issue-bug	[Bug]: 	bug	2022-10-18T11:57:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/652
+651	issue	issue-feature-request	[Feature]: Colour kanban cards based on tag used		2025-04-02T14:51:59Z	https://github.com/obsidian-community/obsidian-kanban/issues/651
+650	issue	issue-feature-request	[Feature]: Swimlanes would be awesome	enhancement	2022-10-06T17:29:30Z	https://github.com/obsidian-community/obsidian-kanban/issues/650
+649	issue	issue-bug	[Bug]:  tags don't show up for meta data 	bug	2024-04-27T13:40:50Z	https://github.com/obsidian-community/obsidian-kanban/issues/649
+647	issue	issue-bug	[Bug]: Some Markdown Syntax not parsed/hidden in Cards	bug	2023-04-18T12:42:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/647
+646	issue	issue-feature-request	[Feature]: Fuzzy searching	enhancement	2022-09-28T06:26:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/646
+645	issue	issue-settings	[Feature]: Maintain sort settings in lanes	enhancement	2022-09-28T02:07:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/645
+644	issue	issue-support-or-unclassified	Switching from Kanban to a Note and back Results in Kanban breaking until Restart		2022-10-21T23:37:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/644
+639	issue	issue-mobile-i18n	[Bug]: (v 1.3.17) Plugin deactivates on iPad	bug	2022-09-28T22:08:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/639
+638	issue	issue-bug	[Bug]:  Cannot Use context menu to correct spelling. 	bug	2022-09-14T04:11:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/638
+636	issue	issue-bug	[Bug]: Cannot create a hyperlink in Kanban mode	bug	2022-09-13T20:09:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/636
+633	issue	issue-feature-request	[Feature]: Allow inserting templates into cards	enhancement	2023-07-16T07:42:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/633
+632	issue	issue-bug	[Bug]: new note from card discards urls	bug	2022-09-07T12:34:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/632
+629	issue	issue-feature-request	[feature] Collapse / hide list		2025-04-17T17:28:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/629
+627	issue	issue-bug	[Bug]: Editing card in 0.16 with multiple lines does not expand	bug	2022-09-02T04:31:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/627
+625	issue	issue-feature-request	[Feature]: separate title and content on card	enhancement	2026-01-23T01:59:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/625
+624	issue	issue-bug	[Bug]: Dropping live preview link in 0.16 creates an invisible link	bug	2022-08-25T05:12:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/624
+622	issue	issue-feature-request	[Feature]: show checkbox only on hover	enhancement	2022-08-22T03:55:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/622
+621	issue	issue-feature-request	[Feature]: Font size option	enhancement	2023-12-08T01:35:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/621
+619	issue	issue-feature-request	[Feature]: Add option to enable party.js effects for checkboxes and lists	enhancement	2022-08-15T05:03:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/619
+618	issue	issue-performance	[Bug]: Plugin doesn't load on Chromebook	bug	2022-12-21T13:22:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/618
+617	issue	issue-bug	[Bug]: Drag and drop not working on Debian (any 1.3 version)	bug	2022-12-08T04:27:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/617
+614	issue	issue-feature-request	[Feature]: Add option to prioritize cards	enhancement	2022-09-12T22:31:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/614
+613	issue	issue-feature-request	[Feature]: suggestion for more more small operations	enhancement	2022-08-09T03:02:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/613
+612	issue	issue-feature-request	[Feature]: Auto finish editing a card on editing box focus loss	enhancement	2022-08-05T08:33:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/612
+607	issue	issue-bug	[Bug]: Drag drop stops working in secondary window if main window isn't visible	bug	2022-08-02T01:03:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/607
+605	issue	issue-feature-request	[Feature]: Link to existing note instead of importing a copy when dropped from another app	enhancement	2022-07-30T01:50:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/605
+603	issue	issue-performance	[Bug]: Crashes with "ResizeObserver loop limit exceeded" or hangs in requestAnimationFrame loop	bug	2022-07-30T18:41:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/603
+602	issue	issue-settings	[Feature]: Setting Toggle To Automatically Create A Note When A New Card Is Created	enhancement	2022-07-28T03:41:32Z	https://github.com/obsidian-community/obsidian-kanban/issues/602
+598	issue	issue-feature-request	[Feature]: Hotkey for "Add a Card"	enhancement	2026-01-07T00:01:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/598
+596	issue	issue-bug	[Bug]: Middle click (scroll button) on wikilink opens two new panes	bug	2022-08-10T10:49:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/596
+595	issue	issue-bug	[Bug]: Use "![[]]" in Kanban to display block task, unable to complete/cancel task（multi-level）	bug	2022-07-27T02:31:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/595
+594	issue	issue-bug	[Bug]: On an existing link, adding "#" to point to the title will add extra symbols	bug	2022-07-27T02:24:58Z	https://github.com/obsidian-community/obsidian-kanban/issues/594
+593	issue	issue-bug	[Bug]: In v0.15.6, using "![[]]" to associate files in a new window kanban will  error	bug	2022-07-24T16:37:08Z	https://github.com/obsidian-community/obsidian-kanban/issues/593
+591	issue	issue-bug	[Bug]: dataview inline metadata is not rendering	bug,dataview,markdown-post-proc	2023-07-22T23:30:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/591
+589	issue	issue-feature-request	[Feature]: Per-lane width	enhancement	2023-09-29T20:42:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/589
+587	issue	issue-bug	[Bug]: in v0.15.5, in Kanban opened in a new window, cards cannot be dragged between columns	bug,can't repro	2022-07-24T10:26:21Z	https://github.com/obsidian-community/obsidian-kanban/issues/587
+586	issue	issue-feature-request	[Feature]: Export all the kanban board notes content to one file	enhancement	2023-09-18T10:33:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/586
+585	issue	issue-feature-request	[Feature]: Preview Highlight When Following Link To Card	enhancement,planned	2022-12-26T07:59:29Z	https://github.com/obsidian-community/obsidian-kanban/issues/585
+583	issue	issue-bug	[Bug]: When using Sliding Panes and Kanban plugins together, drag and drop cards can fall into another kanban behind the current one.	bug,needs investigation,3rd party plugin	2022-07-24T03:18:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/583
+580	issue	issue-mobile-i18n	[Bug]: Drag/Drop with trackpad isn't reliable iPadOS	bug	2022-07-04T13:38:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/580
+579	issue	issue-mobile-i18n	[Bug]: Enter doesn't create new card on iPad	bug	2024-11-03T09:06:06Z	https://github.com/obsidian-community/obsidian-kanban/issues/579
+577	issue	issue-feature-request	[Feature]: Shift+Drag to Duplicate	enhancement	2022-07-03T10:00:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/577
+576	issue	issue-data-integrity	[Bug]: Nested tasks/subtasks not being saved as such in markdown	bug,wontfix	2023-10-29T12:07:38Z	https://github.com/obsidian-community/obsidian-kanban/issues/576
+573	issue	issue-feature-request	[Feature]: auto create non-existing folders for "new-note-folder"	enhancement	2022-06-30T21:21:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/573
+567	issue	issue-feature-request	[Core]: List sorting	enhancement,core	2025-05-29T17:31:21Z	https://github.com/obsidian-community/obsidian-kanban/issues/567
+566	issue	issue-feature-request	[Core]: Drag / drop multiple cards / lanes	enhancement,core	2022-06-26T17:59:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/566
+565	issue	issue-feature-request	[Core]: Official API	enhancement,core	2024-06-10T04:31:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/565
+564	issue	issue-feature-request	[Core]: Add option to display complete / uncomplete task count	enhancement,core	2022-10-26T08:46:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/564
+563	issue	issue-feature-request	[Core]: Display progress bar of linked page tasks	enhancement,core	2022-10-26T08:41:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/563
+562	issue	issue-feature-request	[Core]: List view	enhancement,core	2024-04-17T21:07:18Z	https://github.com/obsidian-community/obsidian-kanban/issues/562
+561	issue	issue-feature-request	[Core]: Table View	enhancement,core	2024-02-19T21:04:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/561
+554	issue	issue-feature-request	[Feature]: Support Alternate Checkboxes	enhancement	2026-05-04T21:56:00Z	https://github.com/obsidian-community/obsidian-kanban/issues/554
+550	issue	issue-bug	[Bug]: Dataview cannot be rendered in Kanban	bug,verified,transclusion,difficult	2025-11-03T15:02:40Z	https://github.com/obsidian-community/obsidian-kanban/issues/550
+549	issue	issue-bug	[Bug]: Can not show time if choose to hide date on card	bug,needs investigation	2023-02-21T20:31:25Z	https://github.com/obsidian-community/obsidian-kanban/issues/549
+546	issue	issue-feature-request	Doesn't work with Hover Editor	enhancement,3rd party plugin	2022-06-30T17:53:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/546
+544	issue	issue-feature-request	[Feature]: Banners for Kanban	enhancement,ice box	2022-08-21T12:36:31Z	https://github.com/obsidian-community/obsidian-kanban/issues/544
+542	issue	issue-bug	[Bug]: Cannot drag notes from the file list and the Recent files list to the kanban	bug,can't repro	2022-06-26T17:13:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/542
+541	issue	issue-feature-request	[Feature]: Enlarge pictures	enhancement	2022-06-25T23:38:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/541
+536	issue	issue-bug	[Bug]: note folder ignores names with hyphens	bug,can't repro	2022-06-26T17:00:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/536
+534	issue	issue-feature-request	[Feature]: Converting Kanban Board to Markdown document	enhancement	2022-05-07T15:13:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/534
+531	issue	issue-bug	[Bug]: Add Date and Time Doesn't Show up if Kanban is opened by HoverEdit plugin	bug	2022-05-04T09:40:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/531
+529	issue	issue-mobile-i18n	[Bug]: Can't activate kanban plugin on Android	bug,needs investigation,mobile,can't repro	2023-03-07T12:22:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/529
+527	issue	issue-feature-request	[Feature]: Searching Kanban board hides cards which don't match search query	enhancement	2025-03-05T15:52:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/527
+518	pull-request	pr-maintenance	Add Documentation for Generating Docs		2024-04-28T23:37:17Z	https://github.com/obsidian-community/obsidian-kanban/pull/518
+516	issue	issue-bug	[Bug]: Markdown links makes date selector  wrong 	bug,needs investigation	2025-05-28T14:42:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/516
+513	issue	issue-feature-request	[Feature]: Ability to print a given list	enhancement,ice box	2022-06-26T17:24:01Z	https://github.com/obsidian-community/obsidian-kanban/issues/513
+504	issue	issue-feature-request	[Feature]: Kanban summary when embedded in a card.	enhancement	2022-04-07T17:44:53Z	https://github.com/obsidian-community/obsidian-kanban/issues/504
+503	issue	issue-feature-request	[Feature]: Filtering Kanban Board on the basis of Tags	enhancement,planned	2024-12-19T14:11:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/503
+500	issue	issue-settings	[Feature]: Add setting to use CTRL+Enter or CMD+Return to complete card	enhancement,good first issue	2022-06-26T00:19:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/500
+495	issue	issue-feature-request	[Feature]: Duplicate should also duplicate the linked note	enhancement,ice box	2022-06-26T00:20:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/495
+493	issue	issue-feature-request	[Feature]: Create card from template	enhancement	2023-08-21T17:36:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/493
+487	issue	issue-feature-request	[Feature]: Dropping an URL into a list creates a card with a cover and proper title	enhancement,ice box	2022-06-26T00:21:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/487
+485	issue	issue-feature-request	[Feature]: Add card to daily note	enhancement	2022-08-16T19:43:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/485
+481	issue	issue-feature-request	[Feature]: Sending/Moving Cards using shortcuts and/or the context menu	enhancement,planned	2022-06-26T00:23:43Z	https://github.com/obsidian-community/obsidian-kanban/issues/481
+480	issue	issue-feature-request	[Feature]: 希望可以设置某个看板甚至某个列的markdown原格式不会自动变成复选框	enhancement,needs translation	2022-06-26T17:26:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/480
+479	issue	issue-feature-request	[Feature]: Obsidian Column Max Card cap	enhancement,planned	2022-06-26T00:25:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/479
+474	issue	issue-feature-request	[Feature]: Export to PDF	enhancement,ice box	2023-03-08T14:49:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/474
+473	issue	issue-feature-request	[Feature]: archived card list	enhancement,planned	2022-06-26T00:26:14Z	https://github.com/obsidian-community/obsidian-kanban/issues/473
+472	issue	issue-feature-request	[Feature]: Hope support for undo operation	enhancement,difficult	2022-06-26T00:26:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/472
+469	issue	issue-feature-request	[Feature]: Limit card height and add scrolling inside the card	enhancement	2025-12-09T10:34:50Z	https://github.com/obsidian-community/obsidian-kanban/issues/469
+467	issue	issue-feature-request	[Feature]: Auto populate #todo from notes into kanban cards.	enhancement	2025-03-14T16:23:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/467
+466	issue	issue-feature-request	[Feature]: New Option -> Maximize List	enhancement,planned	2022-06-26T17:26:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/466
+465	issue	issue-bug	[Bug]: Quick switcher and active pane issue	bug,needs investigation,3rd party plugin	2022-06-26T01:15:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/465
+464	issue	issue-feature-request	[Feature]: 从卡片新建笔记并同时保留日期功能	enhancement,needs translation	2022-06-26T17:27:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/464
+463	issue	issue-feature-request	[Feature]: Move card to specified column when check box is ticked	enhancement	2022-06-26T17:27:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/463
+462	issue	issue-feature-request	[Feature]: Total time spent tracking	enhancement	2022-02-09T09:06:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/462
+460	issue	issue-feature-request	[Feature]: Allow time without date	enhancement	2022-10-25T21:20:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/460
+452	issue	issue-data-integrity	[Feature]: Save kanban board as an image	enhancement,ice box	2022-06-26T17:32:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/452
+451	issue	issue-feature-request	[Feature]: Auto-apply tags based on lane	enhancement	2023-03-12T20:45:09Z	https://github.com/obsidian-community/obsidian-kanban/issues/451
+450	issue	issue-bug	[Bug]: Some conflict with Metaedit plugin	bug,needs investigation,3rd party plugin	2022-06-26T01:16:51Z	https://github.com/obsidian-community/obsidian-kanban/issues/450
+449	issue	issue-feature-request	[Feature]: Shortcut create card in specific board from Command Palette	enhancement	2022-01-26T17:25:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/449
+447	issue	issue-feature-request	[Feature]: Compatibility with Tasks plugin	enhancement	2023-03-13T21:22:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/447
+445	issue	issue-feature-request	[Feature]: Meta Data Toggle Button to Show or Hide	enhancement	2022-01-22T14:27:07Z	https://github.com/obsidian-community/obsidian-kanban/issues/445
+439	issue	issue-mobile-i18n	[Bug]: Syncing issue (between laptop and mobile?)	bug,can't repro	2024-10-25T12:40:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/439
+433	issue	issue-feature-request	[Feature]: Automatically add cards to daily notes when the card is linked to a date	enhancement	2022-01-07T10:39:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/433
+425	issue	issue-feature-request	[Feature]: Add zooming option	enhancement	2022-05-03T09:02:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/425
+418	issue	issue-feature-request	[Feature]: Collapsible lists	enhancement	2022-06-26T17:36:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/418
+415	issue	issue-feature-request	[Feature]: Make shortcut from cards like making duplicate	enhancement	2021-12-27T07:29:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/415
+414	issue	issue-feature-request	[Feature]: Campfire Style adjustable windows	enhancement,ice box	2022-06-26T17:36:50Z	https://github.com/obsidian-community/obsidian-kanban/issues/414
+409	issue	issue-feature-request	[Feature]: Is it possible to set a switch to specify the location of the time stamp for archiving?	enhancement,good first issue	2022-11-08T16:47:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/409
+408	issue	issue-feature-request	[Feature]: Clean search	enhancement	2022-06-26T17:37:40Z	https://github.com/obsidian-community/obsidian-kanban/issues/408
+407	issue	issue-bug	[Bug]: Date and time trigger format appends incorrectly rendering in preview	bug,needs investigation,difficult	2024-03-23T02:53:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/407
+405	issue	issue-feature-request	[Feature]: When a card is completed, update the frontmatter of the first linked note	enhancement	2023-11-29T21:28:22Z	https://github.com/obsidian-community/obsidian-kanban/issues/405
+404	issue	issue-feature-request	[Feature]: Display a `Notice` when a card is due soon	enhancement	2022-04-06T23:29:58Z	https://github.com/obsidian-community/obsidian-kanban/issues/404
+402	issue	issue-feature-request	Order cards by date	enhancement	2021-12-06T13:29:05Z	https://github.com/obsidian-community/obsidian-kanban/issues/402
+401	issue	issue-feature-request	[Feature]: Set due date of card using metadata from first linked note	enhancement	2023-03-06T17:54:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/401
+400	issue	issue-feature-request	[Feature]: Keyboard navigation between lanes?	enhancement	2024-07-16T06:18:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/400
+395	issue	issue-bug	[Bug]: Dragging an email message into a card does not display the email title on the link	bug	2021-11-30T15:29:46Z	https://github.com/obsidian-community/obsidian-kanban/issues/395
+394	issue	issue-settings	[Feature]: Option to keep board settings in the Frontmatter	enhancement	2022-06-29T10:40:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/394
+393	issue	issue-feature-request	[Feature]: Custom date pre/postfixes as pure markdown meta attributes	enhancement	2022-04-05T21:22:35Z	https://github.com/obsidian-community/obsidian-kanban/issues/393
+390	issue	issue-feature-request	[Feature]: Linkable card headers with 	enhancement	2021-11-26T13:38:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/390
+389	issue	issue-feature-request	[Feature]: Showing banner on the top of the page	enhancement	2021-11-25T20:46:39Z	https://github.com/obsidian-community/obsidian-kanban/issues/389
+386	issue	issue-feature-request	[Feature]: reorder individual checkbox subtasks by drag & drop	enhancement	2021-11-17T16:57:09Z	https://github.com/obsidian-community/obsidian-kanban/issues/386
+384	issue	issue-settings	[Feature]: Add setting to disable native spellcheck	enhancement,good first issue	2022-06-26T23:30:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/384
+383	issue	issue-support-or-unclassified	[Question} Autoadd cards to List/Lane based on tag		2023-12-03T22:18:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/383
+382	issue	issue-settings	[Feature]: additional formatting settings	enhancement	2023-04-23T06:57:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/382
+377	issue	issue-mobile-i18n	[Bug]: Embed preview icon not working on iPad	bug,needs investigation,mobile	2022-06-26T01:15:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/377
+372	issue	issue-feature-request	[Feature]: Convert Tasks from other plugin to Canban card?	enhancement	2021-11-06T14:41:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/372
+370	issue	issue-feature-request	[Feature]: Customise date handling to allow integration with the Tasks plugin	enhancement	2022-04-04T16:57:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/370
+368	issue	issue-settings	[Feature]: Add setting to override detected language	enhancement	2021-11-16T02:17:44Z	https://github.com/obsidian-community/obsidian-kanban/issues/368
+367	issue	issue-support-or-unclassified	[QUESTION] Can I add another value to kanban-plugin key in frontmatter? 		2021-10-30T21:02:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/367
+364	issue	issue-feature-request	[Feature]: Fold and Unfold longer tasks	enhancement	2025-09-14T03:15:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/364
+362	issue	issue-data-integrity	[Feature]: key+click=delete	enhancement	2024-10-25T12:34:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/362
+360	issue	issue-feature-request	[Feature]: Item Hooks	enhancement,difficult	2022-06-26T01:03:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/360
+357	issue	issue-feature-request	[Feature]: Able to set the card to display only one to two lines of summary.	enhancement,planned	2022-06-26T01:04:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/357
+351	issue	issue-bug	[Bug]: No one is thanking Mg Meyers Enough for This Awesome Plugin	bug	2022-09-13T12:35:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/351
+350	issue	issue-feature-request	[Feature]: add to notes a wikilink to jump back to canvas view	enhancement,ice box,difficult	2022-06-26T01:05:48Z	https://github.com/obsidian-community/obsidian-kanban/issues/350
+345	issue	issue-feature-request	[Feature]: Dynamic Kanban board - dataview style	enhancement,dataview,difficult	2025-09-11T14:41:23Z	https://github.com/obsidian-community/obsidian-kanban/issues/345
+334	issue	issue-feature-request	[Feature]: Folding & Unfolding Lists	enhancement,planned	2022-06-26T01:06:19Z	https://github.com/obsidian-community/obsidian-kanban/issues/334
+332	issue	issue-feature-request	[Feature]: Set arbitrary min/max card height	enhancement	2024-05-28T02:20:20Z	https://github.com/obsidian-community/obsidian-kanban/issues/332
+323	issue	issue-feature-request	[Feature]: GitHub issues/repo integration	enhancement,ice box,difficult	2024-03-27T22:22:02Z	https://github.com/obsidian-community/obsidian-kanban/issues/323
+321	issue	issue-feature-request	Question: How to use this with dataviewjs to dynamically build a kanban	enhancement,dataview,difficult	2026-01-02T22:47:44Z	https://github.com/obsidian-community/obsidian-kanban/issues/321
+316	issue	issue-feature-request	[Feature]: Dragging folder into kanban should create cards for subfolders 	enhancement	2021-09-27T16:55:49Z	https://github.com/obsidian-community/obsidian-kanban/issues/316
+312	issue	issue-feature-request	[Feature]: Add option for creating new cards in "Zettelkasten" style	enhancement	2021-09-23T18:39:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/312
+311	issue	issue-feature-request	[Feature]: Option to choose the mode in which note links are opened	enhancement	2022-01-09T17:00:42Z	https://github.com/obsidian-community/obsidian-kanban/issues/311
+309	issue	issue-feature-request	[Feature]: Option to add a date when an item is completed	enhancement	2023-01-11T18:24:13Z	https://github.com/obsidian-community/obsidian-kanban/issues/309
+308	issue	issue-feature-request	[Feature]: new css class .is-soon	enhancement	2022-09-30T21:33:21Z	https://github.com/obsidian-community/obsidian-kanban/issues/308
+307	issue	issue-feature-request	[Feature]: It would be great to make a copy of a card when hold Ctrl and drag the card to another list.	enhancement	2021-09-20T03:04:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/307
+303	issue	issue-data-integrity	[Feature]: remove related note when deleting card	enhancement,ice box	2023-03-20T09:37:56Z	https://github.com/obsidian-community/obsidian-kanban/issues/303
+301	issue	issue-feature-request	[Feature]: improve creating, opening and closing related notes	enhancement	2022-06-26T01:13:21Z	https://github.com/obsidian-community/obsidian-kanban/issues/301
+296	issue	issue-bug	[Bug]: Can't always drag to bottom of different list	bug,can't repro	2022-06-26T01:13:40Z	https://github.com/obsidian-community/obsidian-kanban/issues/296
+280	issue	issue-feature-request	[Feature]: Improve edit focusing	enhancement	2022-04-06T23:33:16Z	https://github.com/obsidian-community/obsidian-kanban/issues/280
+274	issue	issue-feature-request	[FEATURE REQUEST] Dragging card out of list archives said card 	enhancement,ice box	2022-06-26T01:14:17Z	https://github.com/obsidian-community/obsidian-kanban/issues/274
+272	issue	issue-feature-request	[FEATURE REQUEST] Nesting	enhancement,ice box,difficult	2022-06-26T00:44:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/272
+270	issue	issue-feature-request	[Feature Request] Option to link 'New note from card' to quickadd	enhancement,ice box	2022-06-26T00:44:52Z	https://github.com/obsidian-community/obsidian-kanban/issues/270
+269	issue	issue-feature-request	some possible - useful features	enhancement	2022-06-26T01:02:45Z	https://github.com/obsidian-community/obsidian-kanban/issues/269
+263	issue	issue-support-or-unclassified	bug of language transfer 	unclear	2022-06-26T01:02:26Z	https://github.com/obsidian-community/obsidian-kanban/issues/263
+251	issue	issue-settings	Unwanted checkboxes appear even if checkboxes are disabled in settings	enhancement,ice box	2022-06-26T00:47:09Z	https://github.com/obsidian-community/obsidian-kanban/issues/251
+248	issue	issue-bug	Always switches pane back to edit mode.	bug,verified	2022-06-26T00:47:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/248
+239	issue	issue-feature-request	Feature request: Add notes to items	enhancement,needs investigation	2022-06-26T00:50:36Z	https://github.com/obsidian-community/obsidian-kanban/issues/239
+237	issue	issue-feature-request	Swim lanes	enhancement,difficult,core	2026-02-20T21:47:41Z	https://github.com/obsidian-community/obsidian-kanban/issues/237
+228	issue	issue-feature-request	RTL Support	enhancement,help wanted,difficult	2022-10-31T05:22:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/228
+216	issue	issue-feature-request	[Feature Request] Auto Archive Cards Once Complete	enhancement,ice box	2023-09-08T16:50:12Z	https://github.com/obsidian-community/obsidian-kanban/issues/216
+193	issue	issue-feature-request	[Feature Request]Can Kanban be arranged in multiple rows?	enhancement,planned	2024-02-19T02:36:09Z	https://github.com/obsidian-community/obsidian-kanban/issues/193
+191	issue	issue-feature-request	[FEATURE REQUEST] Have Core Outline Plugin to move kanban when header is clicked	enhancement,needs investigation,difficult	2022-06-26T00:56:03Z	https://github.com/obsidian-community/obsidian-kanban/issues/191
+184	issue	issue-feature-request	[Feature Request] Checkbox elements on cards	enhancement,planned	2022-06-26T00:56:44Z	https://github.com/obsidian-community/obsidian-kanban/issues/184
+182	issue	issue-feature-request	[Feature Request] New Note from Card when middle-clicking	enhancement,ice box	2022-06-26T00:57:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/182
+171	issue	issue-feature-request	Date in New Card Note and Path	enhancement,difficult	2022-06-26T00:43:55Z	https://github.com/obsidian-community/obsidian-kanban/issues/171
+138	issue	issue-feature-request	Feature request: add functionality to snooze items.	enhancement,ice box	2022-06-26T01:02:04Z	https://github.com/obsidian-community/obsidian-kanban/issues/138
+120	issue	issue-feature-request	Show no of search result . 	enhancement	2022-06-26T00:43:10Z	https://github.com/obsidian-community/obsidian-kanban/issues/120
+114	issue	issue-feature-request	[Feature Request] Crokboard view	enhancement,ice box	2022-06-26T00:42:39Z	https://github.com/obsidian-community/obsidian-kanban/issues/114
+108	issue	issue-performance	[Feature Request] Change card color based on priority OR use color selector to change card's color	enhancement,planned	2023-07-13T20:30:57Z	https://github.com/obsidian-community/obsidian-kanban/issues/108
+103	issue	issue-feature-request	[Feature Request] Vertical Layout Mode with Sliding Pane	enhancement,planned	2023-07-07T12:36:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/103
+94	issue	issue-feature-request	[Feature] Add description to card to avoid needing to make a separate note for added details	enhancement,ice box	2022-06-26T01:01:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/94
+90	issue	issue-feature-request	Horizontal Scroll Key confilcts wiht sliding panes plugin	enhancement,ice box,difficult	2022-06-26T00:35:01Z	https://github.com/obsidian-community/obsidian-kanban/issues/90
+85	issue	issue-feature-request	Show cards from a search (or dataview query)	enhancement,planned,difficult	2024-07-25T20:25:47Z	https://github.com/obsidian-community/obsidian-kanban/issues/85
+83	issue	issue-feature-request	Add board filtering	enhancement	2024-01-02T06:00:24Z	https://github.com/obsidian-community/obsidian-kanban/issues/83
+45	issue	issue-feature-request	Feature Request: Horizontal scroll support across the kanban board using mouse click and hold	enhancement,ice box	2023-02-08T20:06:59Z	https://github.com/obsidian-community/obsidian-kanban/issues/45
+38	issue	issue-support-or-unclassified	Is it possible to add a date reminder function?		2022-01-02T06:55:15Z	https://github.com/obsidian-community/obsidian-kanban/issues/38
+7	issue	issue-feature-request	[Feature Request] Indicate that a File is a Kanban Board in the File Explorer	enhancement,needs investigation	2022-06-26T00:39:34Z	https://github.com/obsidian-community/obsidian-kanban/issues/7
+4	issue	issue-feature-request	Feature Request: Embed kanban board in a page	enhancement,difficult,core	2026-03-24T04:40:11Z	https://github.com/obsidian-community/obsidian-kanban/issues/4
+1	issue	issue-feature-request	Can the unordered list be used?	enhancement	2022-06-26T00:39:37Z	https://github.com/obsidian-community/obsidian-kanban/issues/1

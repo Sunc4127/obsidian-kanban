@@ -276,6 +276,10 @@ const en = {
 
   // components/Editor/MarkdownEditor.tsx
   Submit: 'Submit',
+
+  // settingHelpers.ts
+  'Path must point to an existing file.': 'Path must point to an existing file.',
+  'Path must point to an existing folder.': 'Path must point to an existing folder.',
 };
 
 export type Lang = typeof en;

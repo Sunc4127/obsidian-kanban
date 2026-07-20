@@ -3,32 +3,69 @@ name: Release Obsidian plugin
 on:
   push:
     tags:
-      - '*'
+      - '2.0.52-sunc.*'
+
+permissions:
+  contents: read
 
 jobs:
-  build:
+  release:
     runs-on: ubuntu-latest
-
+    environment: release
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Use Node.js
-        uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
         with:
-          node-version: '18.x'
+          fetch-depth: 0
 
-      - name: Build plugin
+      - name: Use Node.js 18
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: yarn
+
+      - name: Verify tag and manifest version
+        shell: bash
         run: |
-          npm install
-          npm run build
+          tag=${GITHUB_REF#refs/tags/}
+          test "$(git cat-file -t "$tag")" = tag
+          manifest_version=$(node -p "require('./manifest.json').version")
+          package_version=$(node -p "require('./package.json').version")
+          test "$tag" = "$manifest_version"
+          test "$tag" = "$package_version"
+          test -n "${{ vars.OBSIDIAN_KANBAN_REVIEWED_TREE }}"
+          test "$(git rev-parse 'HEAD^{tree}')" = "${{ vars.OBSIDIAN_KANBAN_REVIEWED_TREE }}"
+          reviewed_tree=$(git for-each-ref "refs/tags/$tag" --format='%(contents)' | sed -n 's/^Reviewed-tree: //p')
+          test -n "$reviewed_tree"
+          test "$(printf '%s\n' "$reviewed_tree" | wc -l | tr -d ' ')" = 1
+          test "$(git rev-parse 'HEAD^{tree}')" = "$reviewed_tree"
 
-      - name: Create release
+      - name: Build reviewed commit
+        shell: bash
+        run: scripts/build-release.sh "$RUNNER_TEMP/obsidian-kanban-dist" | tee "$RUNNER_TEMP/build-evidence.txt"
+
+      - name: Create GitHub release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
-          tag="${GITHUB_REF#refs/tags/}"
-
+          tag=${GITHUB_REF#refs/tags/}
+          notes="$RUNNER_TEMP/release-notes.txt"
+          cp release-notes.md "$notes"
+          {
+            echo
+            echo "Reviewed commit: $(git rev-parse HEAD)"
+            echo
+            echo 'SHA-256:'
+            echo '```text'
+            grep -E '^[0-9a-f]{64}  ' "$RUNNER_TEMP/build-evidence.txt"
+            echo '```'
+          } >> "$notes"
           gh release create "$tag" \
-            --title="$tag" \
-            --notes-file="release-notes.md" \
-            main.js manifest.json styles.css
+            --repo "$GITHUB_REPOSITORY" \
+            --title "$tag" \
+            --notes-file "$notes" \
+            "$RUNNER_TEMP/obsidian-kanban-dist/main.js" \
+            "$RUNNER_TEMP/obsidian-kanban-dist/manifest.json" \
+            "$RUNNER_TEMP/obsidian-kanban-dist/styles.css"

@@ -1,8 +1,6 @@
-import Choices, { Choices as IChoices } from 'choices.js';
-import update from 'immutability-helper';
-import { App, Setting, TFile, TFolder, Vault } from 'obsidian';
+import { App, normalizePath, Setting, TFile, TFolder } from 'obsidian';
 
-import { KanbanSettings, SettingsManager } from './Settings';
+import type { KanbanSettings, SettingsManager } from './Settings';
 import { getTemplatePlugins } from './components/helpers';
 import { t } from './lang/helpers';
 
@@ -10,172 +8,120 @@ export const defaultDateTrigger = '@';
 export const defaultTimeTrigger = '@@';
 export const defaultMetadataPosition = 'body';
 
-export function getFolderChoices(app: App) {
-  const folderList: IChoices.Choice[] = [];
+export type PathSettingKind = 'file' | 'folder';
 
-  Vault.recurseChildren(app.vault.getRoot(), (f) => {
-    if (f instanceof TFolder) {
-      folderList.push({
-        value: f.path,
-        label: f.path,
-        selected: false,
-        disabled: false,
-      });
-    }
-  });
-
-  return folderList;
+export interface PathValidationResult {
+  valid: boolean;
+  normalized: string;
+  error?: string;
 }
 
-export function getTemplateChoices(app: App, folderStr?: string) {
-  const fileList: IChoices.Choice[] = [];
-
-  let folder = folderStr ? app.vault.getAbstractFileByPath(folderStr) : null;
-
-  if (!folder || !(folder instanceof TFolder)) {
-    folder = app.vault.getRoot();
-  }
-
-  Vault.recurseChildren(folder as TFolder, (f) => {
-    if (f instanceof TFile) {
-      fileList.push({
-        value: f.path,
-        label: f.basename,
-        selected: false,
-        disabled: false,
-      });
-    }
-  });
-
-  return fileList;
-}
-
-export function getListOptions(app: App) {
-  const { templateFolder, templatesEnabled, templaterPlugin } = getTemplatePlugins(app);
-
-  const templateFiles = getTemplateChoices(app, templateFolder);
-  const vaultFolders = getFolderChoices(app);
-
-  let templateWarning = '';
+export function getTemplateWarning(app: App) {
+  const { templatesEnabled, templaterPlugin } = getTemplatePlugins(app);
 
   if (!templatesEnabled && !templaterPlugin) {
-    templateWarning = t('Note: No template plugins are currently enabled.');
+    return t('Note: No template plugins are currently enabled.');
+  }
+
+  return '';
+}
+
+export function validatePathSetting(
+  app: App,
+  rawValue: string,
+  kind: PathSettingKind
+): PathValidationResult {
+  const trimmed = rawValue.trim();
+
+  if (!trimmed) {
+    return { valid: true, normalized: '' };
+  }
+
+  const normalized = normalizePath(trimmed);
+  const entry = app.vault.getAbstractFileByPath(normalized);
+  const valid = kind === 'file' ? entry instanceof TFile : entry instanceof TFolder;
+
+  if (valid) {
+    return { valid: true, normalized };
   }
 
   return {
-    templateFiles,
-    vaultFolders,
-    templateWarning,
+    valid: false,
+    normalized,
+    error:
+      kind === 'file'
+        ? t('Path must point to an existing file.')
+        : t('Path must point to an existing folder.'),
   };
 }
 
-interface CreateSearchSelectParams {
-  choices: IChoices.Choice[];
+interface CreatePathInputParams {
+  app: App;
   key: keyof KanbanSettings;
+  kind: PathSettingKind;
   warningText?: string;
   local: boolean;
   placeHolderStr: string;
   manager: SettingsManager;
 }
 
-export function createSearchSelect({
-  choices,
+export function createPathInput({
+  app,
   key,
+  kind,
   warningText,
   local,
   placeHolderStr,
   manager,
-}: CreateSearchSelectParams) {
+}: CreatePathInputParams) {
   return (setting: Setting) => {
-    setting.controlEl.createEl('select', {}, (el) => {
-      // el must be in the dom, so we setTimeout
-      el.win.setTimeout(() => {
-        let list = choices;
+    if (warningText) {
+      setting.descEl.createDiv({}, (div) => {
+        div.createEl('strong', { text: warningText });
+      });
+    }
 
-        const [value, globalValue] = manager.getSetting(key, local);
+    const errorEl = setting.descEl.createDiv({ cls: 'kanban-plugin__setting-error' });
+    errorEl.hide();
 
-        let didSetPlaceholder = false;
-        if (globalValue) {
-          const index = list.findIndex((f) => f.value === globalValue);
+    setting.addText((text) => {
+      const [value, globalValue] = manager.getSetting(key, local);
+      const inheritedPlaceholder =
+        typeof globalValue === 'string' && globalValue
+          ? `${globalValue} (${t('default')})`
+          : placeHolderStr;
 
-          if (index > -1) {
-            didSetPlaceholder = true;
-            const choice = choices[index];
+      text.setPlaceholder(inheritedPlaceholder);
+      text.setValue(typeof value === 'string' ? value : '');
 
-            list = update(list, {
-              $splice: [[index, 1]],
-              $unshift: [
-                update(choice, {
-                  placeholder: {
-                    $set: true,
-                  },
-                  value: {
-                    $set: '',
-                  },
-                  label: {
-                    $apply: (v) => `${v} (${t('default')})`,
-                  },
-                }),
-              ],
-            });
-          }
+      text.onChange((rawValue) => {
+        const result = validatePathSetting(app, rawValue, kind);
+
+        if (!result.valid) {
+          text.inputEl.addClass('error');
+          text.inputEl.setAttr('aria-invalid', 'true');
+          errorEl.setText(result.error ?? '');
+          errorEl.show();
+          return;
         }
 
-        if (!didSetPlaceholder) {
-          list = update(list, {
-            $unshift: [
-              {
-                placeholder: true,
-                value: '',
-                label: placeHolderStr,
-                selected: false,
-                disabled: false,
-              },
-            ],
+        text.inputEl.removeClass('error');
+        text.inputEl.removeAttribute('aria-invalid');
+        errorEl.setText('');
+        errorEl.hide();
+
+        if (result.normalized) {
+          manager.applySettingsUpdate({
+            [key]: {
+              $set: result.normalized,
+            },
+          });
+        } else {
+          manager.applySettingsUpdate({
+            $unset: [key],
           });
         }
-
-        const c = new Choices(el, {
-          placeholder: true,
-          position: 'bottom' as 'auto',
-          searchPlaceholderValue: t('Search...'),
-          searchEnabled: list.length > 10,
-          choices: list,
-        }).setChoiceByValue('');
-
-        if (value && typeof value === 'string' && list.findIndex((f) => f.value === value) > -1) {
-          c.setChoiceByValue(value);
-        }
-
-        const onChange = (e: CustomEvent) => {
-          const val = e.detail.value;
-
-          if (val) {
-            manager.applySettingsUpdate({
-              [key]: {
-                $set: val,
-              },
-            });
-          } else {
-            manager.applySettingsUpdate({
-              $unset: [key],
-            });
-          }
-        };
-
-        el.addEventListener('change', onChange);
-
-        manager.cleanupFns.push(() => {
-          c.destroy();
-          el.removeEventListener('change', onChange);
-        });
       });
-
-      if (warningText) {
-        setting.descEl.createDiv({}, (div) => {
-          div.createEl('strong', { text: warningText });
-        });
-      }
     });
   };
 }

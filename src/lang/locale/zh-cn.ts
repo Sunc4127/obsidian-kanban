@@ -191,6 +191,10 @@ const lang: Partial<Lang> = {
 
   // components/Editor/MarkdownEditor.tsx
   Submit: '提交',
+
+  // settingHelpers.ts
+  'Path must point to an existing file.': '路径必须指向现有文件。',
+  'Path must point to an existing folder.': '路径必须指向现有文件夹。',
 };
 
 export default lang;

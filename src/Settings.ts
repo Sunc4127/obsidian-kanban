@@ -34,11 +34,11 @@ import { t } from './lang/helpers';
 import KanbanPlugin from './main';
 import { frontmatterKey } from './parsers/common';
 import {
-  createSearchSelect,
+  createPathInput,
   defaultDateTrigger,
   defaultMetadataPosition,
   defaultTimeTrigger,
-  getListOptions,
+  getTemplateWarning,
 } from './settingHelpers';
 import { cleanUpDateSettings, renderDateSettings } from './settings/DateColorSettings';
 import { cleanupMetadataSettings, renderMetadataSettings } from './settings/MetadataSettings';
@@ -191,7 +191,7 @@ export class SettingsManager {
   constructUI(contentEl: HTMLElement, heading: string, local: boolean) {
     this.win = contentEl.win;
 
-    const { templateFiles, vaultFolders, templateWarning } = getListOptions(this.app);
+    const templateWarning = getTemplateWarning(this.app);
 
     contentEl.createEl('h3', { text: heading });
 
@@ -443,9 +443,10 @@ export class SettingsManager {
       .setName(t('Note template'))
       .setDesc(t('This template will be used when creating new notes from Kanban cards.'))
       .then(
-        createSearchSelect({
-          choices: templateFiles,
+        createPathInput({
+          app: this.app,
           key: 'new-note-template',
+          kind: 'file',
           warningText: templateWarning,
           local,
           placeHolderStr: t('No template'),
@@ -461,9 +462,10 @@ export class SettingsManager {
         )
       )
       .then(
-        createSearchSelect({
-          choices: vaultFolders,
+        createPathInput({
+          app: this.app,
           key: 'new-note-folder',
+          kind: 'folder',
           local,
           placeHolderStr: t('Default folder'),
           manager: this,
